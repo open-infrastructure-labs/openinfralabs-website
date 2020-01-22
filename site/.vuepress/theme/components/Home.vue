@@ -10,7 +10,7 @@
       <h1 v-if="data.heroText !== null" id="main-title">{{ data.heroText || $title || 'Hello' }}</h1>
 
       <p class="description">
-        {{ data.tagline || $description || 'Welcome to your VuePress site' }}
+        <span v-html="data.tagline"></span>
       </p>
 
       <p
@@ -24,6 +24,9 @@
       </p>
     </header>
 
+    <Content slot-key="intro"/>
+
+    <h3 v-if="data.featuresTitle !== null">{{ data.featuresTitle }}</h3>
     <div
       class="features"
       v-if="data.features && data.features.length"
@@ -33,12 +36,37 @@
         v-for="(feature, index) in data.features"
         :key="index"
       >
-        <h2>{{ feature.title }}</h2>
+        <div class="feature-header">
+          <img
+            v-if="feature.image"
+            :src="$withBase(feature.image)"
+            :alt="feature.title || 'feature'"
+          >
+          <h2 v-if="feature.image == null">{{ feature.title }}</h2>
+        </div>
         <p>{{ feature.details }}</p>
       </div>
     </div>
 
     <Content class="theme-default-content custom"/>
+
+    <h3 v-if="data.sponsors && data.sponsors.length">Supported by</h3>
+    <ul
+      class="sponsors"
+      v-if="data.sponsors && data.sponsors.length"
+    >
+      <li
+        class="sponsor"
+        v-for="(sponsor, index) in data.sponsors"
+        :key="index"
+      >
+        <img
+          v-if="sponsor.logo"
+          :src="$withBase(sponsor.logo)"
+          :alt="sponsor.logo || 'sponsor'"
+        >
+      </li>
+    </ul>
 
     <div
       class="footer"
@@ -50,7 +78,7 @@
 </template>
 
 <script>
-import NavLink from '@theme/components/NavLink.vue'
+import NavLink from '@parent-theme/components/NavLink.vue'
 
 export default {
   components: { NavLink },
@@ -72,10 +100,11 @@ export default {
 
 <style lang="stylus">
 .home
-  padding $navbarHeight 2rem 0
-  max-width 960px
+  padding $navbarHeight 9rem
+  max-width 900px
   margin 0px auto
   display block
+  box-sizing border-box
   .hero
     text-align center
     img
@@ -84,14 +113,20 @@ export default {
       display block
       margin 3rem auto 1.5rem
     h1
-      font-size 3rem
+      font-family 'FrontageCondensed Regular'
+      color #D33D3C
+      letter-spacing -0.464rem
+      text-indent -0.464rem
+      font-size 3.688rem
+      margin 0 auto 1.8rem auto !important
     h1, .description, .action
       margin 1.8rem auto
     .description
+      font-family 'Slabo 27px'
       max-width 35rem
-      font-size 1.6rem
+      font-size 1.5rem
       line-height 1.3
-      color lighten($textColor, 40%)
+      color $textColor
     .action-button
       display inline-block
       font-size 1.2rem
@@ -105,9 +140,7 @@ export default {
       &:hover
         background-color lighten($accentColor, 10%)
   .features
-    border-top 1px solid $borderColor
     padding 1.2rem 0
-    margin-top 2.5rem
     display flex
     flex-wrap wrap
     align-items flex-start
@@ -115,16 +148,30 @@ export default {
     justify-content space-between
   .feature
     flex-grow 1
-    flex-basis 30%
-    max-width 30%
+    flex-basis 32%
+    max-width 32%
+    .feature-header
+      display flex
+      justify-content center
+      height 70px
     h2
       font-size 1.4rem
       font-weight 500
       border-bottom none
       padding-bottom 0
-      color lighten($textColor, 10%)
+      color $textColor
     p
-      color lighten($textColor, 25%)
+      color #0
+      text-align center
+  ul.sponsors
+    padding-left 0
+    display flex
+    align-items center
+    flex-wrap wrap
+    li
+      list-style-type none
+      padding 10px
+      flex-grow 1
   .footer
     padding 2.5rem
     border-top 1px solid $borderColor
