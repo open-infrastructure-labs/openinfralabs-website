@@ -14,6 +14,7 @@ features:
 - title: Share repositories
   details: Shared code repositories for operational tooling and the "glue" code that is often written indenpently by users
   image: /images/features/code.svg
+sponsorsTitle: Participants & Supporters
 sponsors:
 - logo: /images/sponsors/boston-university.png
 - logo: /images/sponsors/harvard-univesity.png

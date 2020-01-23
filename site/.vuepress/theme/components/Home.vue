@@ -50,7 +50,7 @@
 
     <Content class="theme-default-content custom"/>
 
-    <h3 v-if="data.sponsors && data.sponsors.length">Supported by</h3>
+    <h3 v-if="data.sponsors && data.sponsors.length">{{ data.sponsorsTitle }}</h3>
     <ul
       class="sponsors"
       v-if="data.sponsors && data.sponsors.length"
