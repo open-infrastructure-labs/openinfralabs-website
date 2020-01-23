@@ -37,3 +37,6 @@ OpenInfra Labs is a community, created by and for operators, testing open source
 If you are building or operating infrastructure for university or research usage, join forces with OpenInfra Labs today.
 
 If you are a technology vendor or provider who would like to participate in OpenInfra labs, contact us at [info@openinfralabs.org](mailto:info@openinfralabs.org)
+
+- Freenode IRC: #openInfra-labs
+- Mailing list: <http://lists.opendev.org/cgi-bin/mailman/listinfo/openinfralabs>
