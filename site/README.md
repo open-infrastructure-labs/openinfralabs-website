@@ -2,7 +2,7 @@
 home: true
 heroAlt: OpenInfra Labs
 heroText: OpenInfra Labs
-tagline: An <u>OSF</u> Project
+tagline: An <a href="https://osf.dev">OSF</a> Project
 featuresTitle: Delivering open source tools to run cloud, container, AI, machine learning and edge workloads repeatedly and predictably
 features:
 - title: Integrated testing
