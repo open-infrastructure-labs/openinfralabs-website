@@ -113,12 +113,12 @@ export default {
       display block
       margin 3rem auto 1.5rem
     h1
-      font-family 'FrontageCondensed Regular'
+      font-family 'Roboto Condensed'
       color #D33D3C
-      letter-spacing -0.464rem
-      text-indent -0.464rem
-      font-size 3.688rem
-      margin 0 auto 1.8rem auto !important
+      text-transform uppercase
+      letter-spacing -2px
+      text-indent 2px
+      font-size 3.5rem
     h1, .description, .action
       margin 1.8rem auto
     .description
