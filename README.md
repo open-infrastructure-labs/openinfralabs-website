@@ -1,6 +1,6 @@
 # openinfralabs-website
 
-> OpenInfra Labs website
+> Website for MOC and Open Infra Labs
 
 ## Development
 
