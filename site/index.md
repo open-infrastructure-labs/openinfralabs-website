@@ -38,5 +38,8 @@ If you are building or operating infrastructure for university or research usage
 
 If you are a technology vendor or provider who would like to participate in OpenInfra labs, contact us at [info@openinfralabs.org](mailto:info@openinfralabs.org)
 
-- Freenode IRC: #openInfra-labs
+### Connect with the Community via these channels
+
+- Freenode IRC: #openinfralabs
 - Mailing list: <http://lists.opendev.org/cgi-bin/mailman/listinfo/openinfralabs>
+
