@@ -5,6 +5,7 @@ module.exports = {
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
   title: 'OpenInfra Labs',
+  base: '/openinfralabs-website',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
