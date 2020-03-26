@@ -1,0 +1,20 @@
+# This file is a template, and might need editing before it works on your project.
+image: node:10-alpine
+
+# These folders are cached between builds
+cache:
+  paths:
+    - ./node_modules
+
+pages:
+  stage: deploy
+  before_script:
+    - yarn install
+  script:
+    - yarn build
+    - mv site/.vuepress/dist public
+  artifacts:
+    paths:
+      - public
+  only:
+    - master
