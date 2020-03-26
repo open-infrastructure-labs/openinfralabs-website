@@ -7,7 +7,7 @@
     "name": "Gabriel Horacio Cutrini",
     "email": "gabriel.cutrini@gmail.com"
   },
-  "repository": "https://github.com/gcutrini/openinfralabs-website",
+  "repository": "https://gitlab.com/open-infrastructure-labs/openinfralabs-website",
   "scripts": {
     "dev": "vuepress dev site",
     "build": "vuepress build site"
