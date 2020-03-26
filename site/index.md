@@ -42,4 +42,3 @@ If you are a technology vendor or provider who would like to participate in Open
 
 - Freenode IRC: #openinfralabs
 - Mailing list: <http://lists.opendev.org/cgi-bin/mailman/listinfo/openinfralabs>
-
