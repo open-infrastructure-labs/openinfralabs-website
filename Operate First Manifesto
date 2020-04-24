@@ -37,16 +37,17 @@ For open source clouds we need to consider operational experience and drive towa
 that ease the complexity and lower the barrier to entry for both standing up and ongoing operation of open
 source clouds. Open source clouds need to address all the operational requirements, such as installation,
 upgrading, monitoring operation and use, allocation of resources, hybrid cloud / multi cloud considerations,
-security, compliance…. With Operate First we will leverage the experience from operational teams of
+security, compliance, etc. With Operate First we will leverage the experience from operational teams of
 existing open source clouds that handle real world use cases to provide operational input to projects where
 appropriate and sharing expertise and tooling that the community can benefit from.  Having an upstream
 community dedicated to overall cloud operation provides an opportunity to leverage the power of open
 source to advance cloud operability. When we Operate First, operational knowledge —which has become as
 valuable as code itself— becomes the subject of collaboration between communities who use the services
 and those who operate them. Being able to actively manage the feedback loop between these communities
-will become an open source strength. Providing developers an environment, where they can run their
-software at a lower SLA, but still enable them to examine the software in a production environment,
-opens the possibility to debug, inspect and observe their software in real-world scenarios.
+will become an open source strength. Providing developers an environment, where they can execute and
+operate their software in a production cloud environment, opens the possibility to debug, inspect
+and observe their software in real-world scenarios.
+
 Could cloud computing cause open source to lose to proprietary? Clouds are based on open source
 technology, but wrapped in non-open source proprietary software that provides an ease of use operational
 experience that pure open source does not compete with today. The barrier to entry for pure open source
@@ -54,7 +55,7 @@ is thus very high. Operational and user experience expectations have been set by
 It’s their lock in. Our efforts to make open source suitable for enterprise use, must now evolve to the
 new model for enterprise which utilizes cloud computing. We need to adapt to meet this challenge or risk
 diminishing open source’s value and see all the progress made to date become less significant. Cloud has
-changed the target for open source, by adding an operational capability that has not been addressed.
+changed the target for open source, by adding an operational capability that needs to be addressed.
 
 Operate First needs to include operating the open source cloud at scale to ensure open source cloud
 operators expectations are properly set and met.
@@ -62,18 +63,20 @@ operators expectations are properly set and met.
 
 Key tenets
 
-With Operate First we will have the ultimate quality, performance and scale test, using open source
-software in an open source production cloud environment , catching issues, ensuring scale and improving
-operations as we go. Drawing projects into the cloud will establish a direct link between cloud operators
-and open source projects to provide a tight loop for identifying issues and resolving them. And where
-appropriate, ideally moving toward better utilization of Continuous Deployment to catch issues closer to
-the source, improve response and drive improvements. We will push operability into a targeted upstream
-where a wider community can participate and  drive an open source solution for cloud operation. Also we
+With Operate First we will utilize open source production cloud environments to allow developers to
+evaluate their functionality as well as operability, at scale with real world workloads. Developers can
+evaluate quality, performance and scale, using open source software in an open source production
+cloud environment, catching issues, ensuring scale and improving operations as we go. Drawing
+projects into the cloud will establish a direct link between cloud operators and open source projects
+to provide a feedback loop for identifying issues and resolving them. And where appropriate, ideally
+moving toward better utilization of Continuous Deployment to catch issues closer to
+the source, to improve response and drive improvements. We will push operability into a targeted upstream
+where a wider community can participate and drive an open source solution for cloud operation. Also we
 will strive to feedback operational consideration to various upstreams to ensure that operational
 considerations are built-in and robust for the technologies they nurture. We will measure our cloud
 operator experience against best in class proprietary competitors to drive toward a first class experience
-for our open source clouds. We will create an environment for upstream communities to run their software.
-This environment will provide a “Best effort community SLA”.
+for our open source clouds. The environment for upstream communities to run their software will provide
+a “Best effort community SLA”.
 
 How?
 
@@ -86,3 +89,5 @@ model, the project will determine a workable path forward for continuous improve
 an Operate First methodology for open source. DevOps into a live production cloud for open source
 projects will go a long way to ensuring functionality as well as operability.
 
+Resources such as the Mass Open Cloud will allow developer access for vetting their open source
+projects for both functional and operational aspects.
