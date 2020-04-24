@@ -3,7 +3,8 @@ Operate First Community Manifesto
 A fairly widespread realization that open source is lagging behind proprietary software when it comes to
 cloud computing, specifically in the operation of the cloud, has fostered several things.
 One, the Red Hat Office of the CTO started an initiative to work towards making operations as
-fundamental as functionality in the upstreams we contribute to and the products we produce.
+fundamental as functionality in the upstreams they contribute to and the products they produce.
+Likewise the concept has been exposed and embraced by the open source cloud community.
 Another is that consuming public cloud is not always cost effective and standing up an open source
 alternative presents many challenges from the skill sets needed to run them and the lack of an open 
 source community to address complex operational issues, which leaves potential operators on their own.
