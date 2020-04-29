@@ -1,4 +1,9 @@
-Operate First Community Manifesto
+---
+home: false
+---
+
+# Operate First Community Manifesto
+
 
 A fairly widespread realization that open source is lagging behind proprietary software when it comes to
 cloud computing, specifically in the operation of the cloud, has fostered several things.
@@ -25,7 +30,7 @@ various community projects (such as Kubernetes Operators) the lack of an upstrea
 community to advance overall cloud operational considerations is viewed as a threat
 to open source’s relevance in the cloud. 
 
-Why?
+## Why?
 
 Imagine a company building airplanes. Not only do they need to design, build and test each component and
 subsystem individually and test them together as a whole, they also need to employ pilots to actually fly
@@ -62,7 +67,7 @@ Operate First needs to include operating the open source cloud at scale to ensur
 operators expectations are properly set and met.
 
 
-Key tenets
+## Key tenets
 
 With Operate First we will utilize open source production cloud environments to allow developers to
 evaluate their functionality as well as operability, at scale with real world workloads. Developers can
@@ -79,7 +84,7 @@ operator experience against best in class proprietary competitors to drive towar
 for our open source clouds. The environment for upstream communities to run their software will provide
 a “Best effort community SLA”.
 
-How?
+## How?
 
 With Operate First, our community will open up operational knowledge to all open source communities
 to improve the integration and operability from the source.  We need to establish a tight connection
