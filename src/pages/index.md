@@ -30,7 +30,7 @@ sponsors:
   title: Participants & Supporters
   sponsorList:
     - logo: /img/sponsors/boston-university.png
-    - logo: /img/sponsors/harvard-univesity.png
+    - logo: /img/sponsors/harvard-university.png
     - logo: /img/sponsors/mit.png
     - logo: /img/sponsors/northeastern-university.png
     - logo: /img/sponsors/umass.png
