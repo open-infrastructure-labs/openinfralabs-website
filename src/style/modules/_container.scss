@@ -1,0 +1,32 @@
+/* ------------------------------------------------------------ *\
+	Container
+\* ------------------------------------------------------------ */
+
+$container-max-width: 1140px;
+$container-small-max-width: 996px;
+$container-medium-max-width: 1093px;
+$container-thin-max-width: 835px;
+$container-thin-alt-max-width: 851px;
+
+.container {
+	max-width: $container-max-width + $container-gutter * 2;
+	width: auto;
+	padding-right: $container-gutter;
+	padding-left: $container-gutter;
+
+	&-small {
+		max-width: $container-small-max-width + $container-gutter * 2;
+	}
+
+	&-medium {
+		max-width: $container-medium-max-width + $container-gutter * 2;
+	}
+
+	&-thin {
+		max-width: $container-thin-max-width + $container-gutter * 2;
+	}
+
+	&-thin-alt {
+		max-width: $container-thin-alt-max-width + $container-gutter * 2;
+	}
+}
