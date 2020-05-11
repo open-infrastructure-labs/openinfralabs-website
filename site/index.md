@@ -38,6 +38,8 @@ If you are building or operating infrastructure for university or research usage
 
 If you are a technology vendor or provider who would like to participate in OpenInfra labs, contact us at [info@openinfralabs.org](mailto:info@openinfralabs.org)
 
+Read the [Operate First Manifesto](operate-first-manifesto.md). 
+
 ### Connect with the Community via these channels
 
 - Freenode IRC: #openinfralabs
