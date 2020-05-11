@@ -9,6 +9,7 @@ backend:
     uploadMedia: '[skip ci] Upload “{{path}}”'
     deleteMedia: '[skip ci] Delete “{{path}}”'
 
+publish_mode: editorial_workflow
 media_folder: static/img
 public_folder: /img
 
@@ -76,8 +77,8 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Category", name: "category", widget: ncw-file-relation, collection: configurations, file: blogConfig, target_field: categories, id_field: id, display_fields: text, required: false }
       - {label: "Body", name: "body", widget: "markdown"}
-  - name: "pages"
-    label: "Pages"
+  - name: "index"
+    label: "Landing"
     files:
       - file: "src/pages/index.md"
         label: "Landing Page"
@@ -113,3 +114,18 @@ collections:
               ]}
           ]}
           - {label: "Body", name: body, widget: markdown}   
+  - name: "pages"
+    label: "Pages"
+    folder: "src/pages/pages"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "custom-page"}
+      - {label: SEO, name: seo, widget: object, fields: [
+          {label: "Title", name: "title", widget: string},
+          {label: "Description", name: "description", widget: string},
+          {label: "Url", name: "url", widget: string},
+          {label: "Image", name: "image", widget: image},
+        ]}
+      - {label: Title, name: title, widget: string}
+      - {label: "Body", name: body, widget: markdown}
