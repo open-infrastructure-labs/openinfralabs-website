@@ -36,6 +36,7 @@ const TemplateWrapper = ({ children }) => {
         />
       </Helmet>
       <SEO />
+      <TopBar />
       <div>{children}</div>
     </div>
   )

@@ -40,6 +40,10 @@ sponsors:
     - logo: /img/sponsors/futurewei.png
 ---
 
+### Operate First Community Manifesto
+
+Read the [Operate First Community Manifesto](/operate-first-community-manifesto/).
+
 ### Get Involved
 If you are building or operating infrastructure for university or research usage, join forces with OpenInfra Labs today.
 

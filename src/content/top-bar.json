@@ -1,7 +1,7 @@
 {
   "bar": {
-    "text": "Learn about MOC and Open Infrastracture",
-    "link": "/blog",
-    "button": "read blog"
+    "text": "Read the OpenInfra Labs Operate First Manifesto",
+    "link": "https://openinfralabs.org/operate-first-community-manifesto/",
+    "button": "Learn More"
   }
 }
