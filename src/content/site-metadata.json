@@ -1,0 +1,10 @@
+{
+  "siteMetadata": {
+    "title": "OpenInfra Labs",
+    "titleTemplate": "%s | OpenInfra Labs",
+    "description": "OpenInfra Labs",
+    "url": "https://openinfralabs.org/",
+    "image": "/img/og-image.png",
+    "themeColor": "#685bc7"
+  }
+}

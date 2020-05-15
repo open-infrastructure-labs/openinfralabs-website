@@ -11,8 +11,7 @@ pages:
   before_script:
     - yarn install
   script:
-    - yarn build
-    - mv site/.vuepress/dist public
+    - npm run build
   artifacts:
     paths:
       - public

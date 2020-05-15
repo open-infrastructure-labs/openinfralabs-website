@@ -1,0 +1,16 @@
+{
+  "title": "Blog",
+  "subTitle": "Learn about MOC and Open Infrastracture",
+  "categories": [
+  ],
+  "connect": [
+    {
+      "text": "Mailing Lists",
+      "link": "http://lists.opendev.org/cgi-bin/mailman/listinfo/openinfralabs"
+    },
+    {
+      "text": "Freenode IRC: #openinfralabs",
+      "link": "https://webchat.freenode.net/?channels=openinfralabs"
+    }
+  ]
+}
