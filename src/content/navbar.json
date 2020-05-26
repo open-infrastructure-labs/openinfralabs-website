@@ -3,17 +3,17 @@
     {
       "text": "Title",
       "link": "/link/",
-      "display": true
+      "display": false
     },
     {
       "text": "Title 2",
       "link": "/link2/",
-      "display": true
+      "display": false
     },
     {
       "text": "Title 3",
       "link": "/link3/",
-      "display": true
+      "display": false
     }
   ]
 }

@@ -11,7 +11,7 @@ const TopBar = class extends React.Component {
 
   render() {
 
-    if(content.bar) {
+    if(content.bar && content.bar.display) {
       return (
         <div className="header">
           <div className="bar is-dark-gray">
