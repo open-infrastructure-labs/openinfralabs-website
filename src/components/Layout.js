@@ -4,6 +4,7 @@ import SEO from '../components/SEO'
 import '../style/style.scss'
 import { withPrefix } from 'gatsby'
 import TopBar from './TopBar'
+import Navbar from './Navbar'
 
 const TemplateWrapper = ({ children }) => {
   return (
@@ -37,6 +38,7 @@ const TemplateWrapper = ({ children }) => {
       </Helmet>
       <SEO />
       <TopBar />
+      <Navbar />
       <div>{children}</div>
     </div>
   )

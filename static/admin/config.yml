@@ -65,6 +65,15 @@ collections:
               {label: "Text", name: "text", widget: string },
               {label: "Link", name: "link", widget: string },
             ]}
+      - file: "src/content/navbar.json"
+        label: "Navbar"
+        name: "navbar"
+        fields:
+          - {label: "Navbar", name: "navbar", widget: list, fields: [
+              {label: "Text", name: "text", widget: string},
+              {label: "Link", name: "link", widget: string},
+              {label: "Display", name: "display", widget: boolean},
+            ]}            
   - name: "blog"
     label: "Blog"
     folder: "src/pages/blog"
