@@ -1,18 +1,13 @@
 {
   "nav": [
     {
-      "text": "Title",
-      "link": "/link/",
+      "text": "Home",
+      "link": "/",
       "display": false
     },
     {
-      "text": "Title 2",
-      "link": "/link2/",
-      "display": false
-    },
-    {
-      "text": "Title 3",
-      "link": "/link3/",
+      "text": "Manifesto",
+      "link": "/operate-first-community-manifesto",
       "display": false
     }
   ]
