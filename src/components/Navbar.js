@@ -1,9 +1,8 @@
 import React from 'react'
-
-import Menu from "../content/navbar.json"
 import LinkComponent from './LinkComponent'
+import data from "../content/nav-bar.json"
 
-const Navbar = class extends React.Component {
+const NavBar = class extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
@@ -33,7 +32,7 @@ const Navbar = class extends React.Component {
   }
 
   render() {
-    if (Menu.nav.length > 0 && Menu.nav.some((element) => element.display === true)) {
+    if (data.navBar.length > 0 && data.navBar.some((element) => element.display === true)) {
       return (
         <nav className="nav navbar is-transparent" role="navigation" aria-label="main-navigation">
           <div className="">
@@ -58,12 +57,12 @@ const Navbar = class extends React.Component {
                 className={`nav-content ${this.state.navBarActiveClass}`}
               >
                 <ul className="nav-menu nobullet navbar-start has-text-centered">
-                  {Menu.nav.map((li, index) => {
+                  {data.navBar.map((li, index) => {
                     if(li.display) {
                       return (
                         <React.Fragment>
                           <li><a href={li.link}>{li.text}</a></li>
-                          {index + 1 < Menu.nav.length ? <span>|</span> : null}
+                          {index + 1 < data.navBar.length ? <span>|</span> : null}
                         </React.Fragment>
                       )
                     }                    
@@ -81,4 +80,4 @@ const Navbar = class extends React.Component {
   }
 }
 
-export default Navbar
+export default NavBar

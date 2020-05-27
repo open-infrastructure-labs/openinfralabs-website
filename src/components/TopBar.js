@@ -1,6 +1,6 @@
 import React from 'react'
-import content from '../content/top-bar.json'
 import LinkComponent from './LinkComponent'
+import data from '../content/top-bar.json'
 
 const TopBar = class extends React.Component {
   constructor(props) {
@@ -11,16 +11,16 @@ const TopBar = class extends React.Component {
 
   render() {
 
-    if(content.bar && content.bar.display) {
+    if(data.topBar && data.topBar.display) {
       return (
         <div className="header">
           <div className="bar is-dark-gray">
             <div className="container">
               <div className="bar-inner">              
                 <div className="bar-entry">
-                  <p>{content.bar.text}</p>
+                  <p>{data.topBar.text}</p>
                 </div> 
-                <LinkComponent href={content.bar.link} className="bar-btn">{content.bar.button}</LinkComponent>
+                <LinkComponent href={data.topBar.link} className="bar-btn">{data.topBar.button}</LinkComponent>
               </div>
             </div>
           </div>
