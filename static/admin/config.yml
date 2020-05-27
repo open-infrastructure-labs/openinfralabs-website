@@ -1,7 +1,7 @@
 backend:
   name: gitlab
-  repo: open-infrastructure-labs/openinfralabs-website
-  branch: master
+  repo: gcutrini/openinfralabs-website
+  branch: adds-menu
   commit_messages:
     create: 'Create {{collection}} “{{slug}}”'
     update: 'Update {{collection}} “{{slug}}”'
@@ -14,31 +14,11 @@ media_folder: static/img
 public_folder: /img
 
 collections:
-  - name: "authors"
-    label: "Authors"
-    folder: "/src/pages/author"
-    create: true    
-    editor:
-      preview: false
-    identifier_field: authorName
-    fields:
-      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "tags"}
-      - {label: "Name", name: authorName, widget: string}
-      - {label: "Company", name: company, widget: string}
   - name: "configurations"
     label: "Configurations"
     editor:
       preview: false
-    files:      
-      - file: "src/content/top-bar.json"
-        label: "Top Bar"
-        name: "topBar"
-        fields:
-          - {label: "Bar Info", name: "bar", widget: object, fields: [
-              {label: "Text", name: "text", widget: string},
-              {label: "Link", name: "link", widget: string},
-              {label: "Button", name: "button", widget: string},
-            ]}
+    files:
       - file: "src/content/site-metadata.json"
         label: "Site Metadata"
         name: "siteMetadata"
@@ -50,7 +30,27 @@ collections:
               {label: "Url", name: "url", widget: string},
               {label: "Image", name: "image", widget: image},
               {label: "Theme Color", name: "themeColor", widget: string},
-          ]}
+          ]} 
+      - file: "src/content/top-bar.json"
+        label: "Top Bar"
+        name: "topBar"
+        fields:
+          - {label: "Bar Info", name: "topBar", widget: object, fields: [
+              {label: "Text", name: "text", widget: string},
+              {label: "Link", name: "link", widget: string},
+              {label: "Button", name: "button", widget: string},
+              {label: "Display", name: "display", widget: boolean}
+            ]}
+
+      - file: "src/content/nav-bar.json"
+        label: "Nav Bar"
+        name: "navBar"
+        fields:
+          - {label: "Menu Item", name: "navBar", widget: list, fields: [
+              {label: "Text", name: "text", widget: string},
+              {label: "Link", name: "link", widget: string},
+              {label: "Display", name: "display", widget: boolean},
+            ]}
       - file: "src/content/blog-config.json"
         label: "Blog Configuration"
         name: "blogConfig"
@@ -65,18 +65,6 @@ collections:
               {label: "Text", name: "text", widget: string },
               {label: "Link", name: "link", widget: string },
             ]}
-  - name: "blog"
-    label: "Blog"
-    folder: "src/pages/blog"
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "blog-post"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Author", name: "author", widget: "relation", collection: "authors", searchFields: ["authorName"], valueField: "authorName" }
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Category", name: "category", widget: ncw-file-relation, collection: configurations, file: blogConfig, target_field: categories, id_field: id, display_fields: text, required: false }
-      - {label: "Body", name: "body", widget: "markdown"}
   - name: "index"
     label: "Landing"
     files:
@@ -129,3 +117,26 @@ collections:
         ]}
       - {label: Title, name: title, widget: string}
       - {label: "Body", name: body, widget: markdown}
+  - name: "authors"
+    label: "Authors"
+    folder: "/src/pages/author"
+    create: true    
+    editor:
+      preview: false
+    identifier_field: authorName
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "tags"}
+      - {label: "Name", name: authorName, widget: string}
+      - {label: "Company", name: company, widget: string}
+  - name: "blog"
+    label: "Blog"
+    folder: "src/pages/blog"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "blog-post"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Author", name: "author", widget: "relation", collection: "authors", searchFields: ["authorName"], valueField: "authorName" }
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Category", name: "category", widget: ncw-file-relation, collection: configurations, file: blogConfig, target_field: categories, id_field: id, display_fields: text, required: false }
+      - {label: "Body", name: "body", widget: "markdown"}

@@ -1,7 +1,8 @@
 {
-  "bar": {
+  "topBar": {
     "text": "Read the OpenInfra Labs Operate First Manifesto",
     "link": "https://openinfralabs.org/operate-first-community-manifesto/",
-    "button": "Learn More"
+    "button": "Learn More",
+    "display": false
   }
 }

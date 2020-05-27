@@ -1,0 +1,14 @@
+{
+  "navBar": [
+    {
+      "text": "Home",
+      "link": "/",
+      "display": true
+    },
+    {
+      "text": "Manifesto",
+      "link": "/operate-first-community-manifesto",
+      "display": true
+    }
+  ]
+}
