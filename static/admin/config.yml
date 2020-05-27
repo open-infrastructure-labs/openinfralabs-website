@@ -1,7 +1,7 @@
 backend:
   name: gitlab
-  repo: open-infrastructure-labs/openinfralabs-website
-  branch: master
+  repo: gcutrini/openinfralabs-website
+  branch: adds-menu
   commit_messages:
     create: 'Create {{collection}} “{{slug}}”'
     update: 'Update {{collection}} “{{slug}}”'
@@ -46,7 +46,7 @@ collections:
         label: "Nav Bar"
         name: "navBar"
         fields:
-          - {label: "Navbar", name: "navBar", widget: list, fields: [
+          - {label: "Menu Item", name: "menuItem", widget: list, fields: [
               {label: "Text", name: "text", widget: string},
               {label: "Link", name: "link", widget: string},
               {label: "Display", name: "display", widget: boolean},
