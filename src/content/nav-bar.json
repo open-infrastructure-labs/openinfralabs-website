@@ -3,12 +3,12 @@
     {
       "text": "Home",
       "link": "/",
-      "display": false
+      "display": true
     },
     {
       "text": "Manifesto",
       "link": "/operate-first-community-manifesto",
-      "display": false
+      "display": true
     }
   ]
 }
