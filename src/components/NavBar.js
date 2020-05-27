@@ -36,12 +36,9 @@ const NavBar = class extends React.Component {
       return (
         <nav className="nav navbar is-transparent" role="navigation" aria-label="main-navigation">
           <div className="">
-            <div className="nav-inner">              
+            <div className="nav-inner">
               <div className="nav-brand">
-                <a href="/" title="Logo">
-                  <img src="img/icon.png" alt="Logo" style={{width: '40px'}}/>
-                </a>
-                {/* Hamburger menu */}              
+                {/* Hamburger menu */}
               </div>
               <div
                 className={`navbar-burger burger ${this.state.navBarActiveClass}`}
@@ -58,14 +55,16 @@ const NavBar = class extends React.Component {
               >
                 <ul className="nav-menu nobullet navbar-start has-text-centered">
                   {data.navBar.map((li, index) => {
-                    if(li.display) {
+                    if (li.display) {
                       return (
                         <React.Fragment>
-                          <li><a href={li.link}>{li.text}</a></li>
-                          {index + 1 < data.navBar.length ? <span>|</span> : null}
+                          <a href={li.link}>
+                            <li>{li.text}</li>
+                          </a>
+                          {index + 1 < data.navBar.length ? <React.Fragment><span>|</span><br /></React.Fragment> : null}
                         </React.Fragment>
                       )
-                    }                    
+                    }
                   })}
                 </ul>
               </div>
