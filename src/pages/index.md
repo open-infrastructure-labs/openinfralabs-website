@@ -21,7 +21,7 @@ features:
       image: /img/svg/test.svg
       details: Integrated testing of all the necessary to provide a complete use case
     - title: Documentation
-      details: Documentation of operational and funcional gaps required to run upstream projects in a production environment
+      details: Documentation of operational and functional gaps required to run upstream projects in a production environment
       image: /img/svg/docs.svg
     - title: Share repositories
       details: Shared code repositories for operational tooling and the "glue" code that is often written indenpently by users
@@ -53,3 +53,5 @@ If you are a technology vendor or provider who would like to participate in Open
 
 - Freenode IRC: #openinfralabs
 - Mailing list: <http://lists.opendev.org/cgi-bin/mailman/listinfo/openinfralabs>
+- Code Repository: https://gitlab.com/open-infrastructure-labs
+	- Meeting Notes: https://gitlab.com/open-infrastructure-labs/nerc-architecture
