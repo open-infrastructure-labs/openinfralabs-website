@@ -27,12 +27,12 @@ features:
       title: Integrated testing
     - details: >-
         Documentation and bridging of operational, functional, and
-        non-functional gaps to runupstream projects in a production environment
+        non-functional gaps to run upstream projects in a production environment
       image: /img/svg/docs.svg
       title: Documentation
     - details: >-
         Shared code repositories for cross-layer optimization, operational
-        tooling and the "glue" code that is often written indepently by users
+        tooling and the "glue" code that is often written independently by users
       image: /img/svg/code.svg
       title: Share repositories
   title: >-
