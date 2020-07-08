@@ -1,33 +1,40 @@
 ---
 templateKey: index-page
 seo:
-  title: Home
   description: OpenInfra Labs
-  url: https://openinfralabs.org/
   image: /img/svg/logo.svg
+  title: Home
+  url: 'https://openinfralabs.org/'
 header:
+  subTitle: >-
+    <span>An <a href="https://osf.dev" target="_blank" rel="noopener">OSF</a>
+    Project</span>
   title: OPENINFRA LABS
-  subTitle: <span>An <a href="https://osf.dev" target="_blank" rel="noopener">OSF</a> Project</span>
 intro:
-  title: Connecting open source projects to production    
-  text: >    
-    OpenInfra Labs is a community, created by and for operators, testing open source code in 
-    production, publishing complete, reproducible stacks for existing & emerging workloads, 
-    to advance open source infrastructure.    
+  text: >
+    OpenInfra Labs is a community, created by and for operators, testing open
+    source code in  production, publishing complete, reproducible stacks for
+    existing & emerging workloads,  to advance open source infrastructure.    
+  title: Connecting open source projects to production
 features:
-  title: Delivering open source tools to run cloud, container, AI, machine learning and edge workloads repeatedly and predictably
   featureList:
-    - title: Integrated testing
+    - details: Integrated testing of all the necessary to provide a complete use case
       image: /img/svg/test.svg
-      details: Integrated testing of all the necessary to provide a complete use case
-    - title: Documentation
-      details: Documentation of operational and functional gaps required to run upstream projects in a production environment
+      title: Integrated testing
+    - details: >-
+        Documentation of operational and functional gaps required to run
+        upstream projects in a production environment
       image: /img/svg/docs.svg
-    - title: Share repositories
-      details: Shared code repositories for operational tooling and the "glue" code that is often written indenpently by users
+      title: Documentation
+    - details: >-
+        Shared code repositories for operational tooling and the "glue" code
+        that is often written indenpently by users
       image: /img/svg/code.svg
+      title: Share repositories
+  title: >-
+    Delivering open source tools to run cloud, container, AI, machine learning
+    and edge workloads repeatedly and predictably
 sponsors:
-  title: Participants & Supporters
   sponsorList:
     - logo: /img/sponsors/boston-university.png
     - logo: /img/sponsors/harvard-university.png
@@ -38,6 +45,11 @@ sponsors:
     - logo: /img/sponsors/intel.png
     - logo: /img/sponsors/red-hat.png
     - logo: /img/sponsors/futurewei.png
+    - logo: /img/logo-dell.svg
+    - logo: /img/logo-fiberhome.png
+    - logo: /img/troila-new-lg.jpg
+    - logo: /img/logo-citynetwork.svg
+  title: Participants & Supporters
 ---
 
 ### Operate First Community Manifesto
