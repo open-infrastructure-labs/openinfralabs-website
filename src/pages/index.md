@@ -12,28 +12,32 @@ header:
   title: OPENINFRA LABS
 intro:
   text: >
-    OpenInfra Labs is a community, created by and for operators, testing open
-    source code in  production, publishing complete, reproducible stacks for
-    existing & emerging workloads,  to advance open source infrastructure.    
+    OpenInfra Labs is a community, created by and for infrastructure providers
+    and operators, integrating and optimizing different layers of the
+    infrastructure, testing open source code in production, publishing complete,
+    reproducible stacks for existing & emerging workloads, to advance open
+    source infrastructure.  
   title: Connecting open source projects to production
 features:
   featureList:
-    - details: Integrated testing of all the necessary to provide a complete use case
+    - details: >-
+        Integration, optimization, and testing of the complete infrastructure
+        stack to support  complete use cases
       image: /img/svg/test.svg
       title: Integrated testing
     - details: >-
-        Documentation of operational and functional gaps required to run
-        upstream projects in a production environment
+        Documentation and bridging of operational, functional, and
+        non-functional gaps to runupstream projects in a production environment
       image: /img/svg/docs.svg
       title: Documentation
     - details: >-
-        Shared code repositories for operational tooling and the "glue" code
-        that is often written indenpently by users
+        Shared code repositories for cross-layer optimization, operational
+        tooling and the "glue" code that is often written indepently by users
       image: /img/svg/code.svg
       title: Share repositories
   title: >-
     Delivering open source tools to run cloud, container, AI, machine learning
-    and edge workloads repeatedly and predictably
+    and edge workloads efficiently, repeatedly and predictably
 sponsors:
   sponsorList:
     - logo: /img/sponsors/boston-university.png
@@ -45,16 +49,14 @@ sponsors:
     - logo: /img/sponsors/intel.png
     - logo: /img/sponsors/red-hat.png
     - logo: /img/sponsors/futurewei.png
-    - logo: /img/logo-dell.svg
-    - logo: /img/logo-fiberhome.png
-    - logo: /img/troila-new-lg.jpg
-    - logo: /img/logo-citynetwork.svg
   title: Participants & Supporters
 ---
 
 ### Operate First Community Manifesto
 
 Read the [Operate First Community Manifesto](/operate-first-community-manifesto/).
+
+### Operate First Community Manifesto
 
 ### Get Involved
 If you are building or operating infrastructure for university or research usage, join forces with OpenInfra Labs today.
