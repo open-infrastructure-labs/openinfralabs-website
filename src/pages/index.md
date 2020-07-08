@@ -57,6 +57,9 @@ sponsors:
     - logo: /img/cdac-sm.png
     - logo: /img/gresearch-sm.jpg
     - logo: /img/click2cloud-sm.jpg
+    - logo: /img/whitestack_google.png
+    - logo: /img/warescale-1.png
+    - logo: /img/vexxhost-sm.jpg
   title: Participants & Supporters
 ---
 
