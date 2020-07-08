@@ -49,10 +49,10 @@ sponsors:
     - logo: /img/sponsors/intel.png
     - logo: /img/sponsors/red-hat.png
     - logo: /img/sponsors/futurewei.png
-    - logo: /img/troila-sm.jpg
-    - logo: /img/fiberhome-sm copy.jpg
-    - logo: /img/dell-sm.jpg
-    - logo: /img/citynetwork-sm.jpg
+    - logo: /img/troila-sm copy.jpg
+    - logo: /img/Untitled-2.jpg
+    - logo: /img/dell-sm copy.jpg
+    - logo: /img/citynetwork-sm copy.jpg
   title: Participants & Supporters
 ---
 
