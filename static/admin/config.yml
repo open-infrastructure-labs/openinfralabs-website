@@ -1,7 +1,7 @@
 backend:
   name: gitlab
-  repo: gcutrini/openinfralabs-website
-  branch: adds-menu
+  repo: open-infrastructure-labs/openinfralabs-website
+  branch: master
   commit_messages:
     create: 'Create {{collection}} “{{slug}}”'
     update: 'Update {{collection}} “{{slug}}”'
