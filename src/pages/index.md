@@ -52,11 +52,15 @@ sponsors:
   title: Participants & Supporters
 ---
 
-### Operate First Community Manifesto
+### Activities
 
-Read the [Operate First Community Manifesto](/operate-first-community-manifesto/).
+Key development activities in OpenInfra Labs include:
 
-### Operate First Community Manifesto
+- Operate First: making cloud operations as fundamental as functionality in the upstreams. Read the [Operate First Community Manifesto](/operate-first-community-manifesto/).
+
+- Project Caerus: improving coordination between compute and storage systems for big data and AI workloads. Read the [Project Caerus Manifesto](https://gitlab.com/open-infrastructure-labs/caerus/-/blob/master/Manifesto.pdf).
+
+- Elastic Secure Infrastructure: enabling infrastructure to be securely provisioned and moved between different services. Read the [Visit the ESI project page](https://www.bu.edu/rhcollab/projects/esi/).
 
 ### Get Involved
 If you are building or operating infrastructure for university or research usage, join forces with OpenInfra Labs today.
