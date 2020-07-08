@@ -53,6 +53,10 @@ sponsors:
     - logo: /img/Untitled-2.jpg
     - logo: /img/dell-sm copy.jpg
     - logo: /img/citynetwork-sm copy.jpg
+    - logo: /img/ampere-sm.jpg
+    - logo: /img/cdac-sm.png
+    - logo: /img/gresearch-sm.jpg
+    - logo: /img/click2cloud-sm.jpg
   title: Participants & Supporters
 ---
 
