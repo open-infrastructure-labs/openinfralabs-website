@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import { OutboundLink } from 'gatsby-plugin-google-analytics'
-import Menu from "../content/navbar.json"
+import menu from "../content/navbar.json"
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -41,10 +41,10 @@ const Navbar = class extends React.Component {
       >
         <div className="container">
           <div className="nav-inner">
-            {Menu.logo &&
+            {menu.logo &&
               <div className="nav-brand">
                 <Link to="/" title="OpenInfra Labs Website Logo">
-                  <img src={Menu.logo} alt="OpenInfra Labs Website" />
+                  <img src={menu.logo} alt="OpenInfra Labs Website" />
                 </Link>
                 {/* Hamburger menu */}
               </div>
@@ -66,7 +66,7 @@ const Navbar = class extends React.Component {
               className={`nav-content ${this.state.navBarActiveClass}`}
             >
               <ul className="nav-menu nobullet navbar-start has-text-centered">
-                {Menu.nav.map((data, index) => {
+                {menu.nav.map((data, index) => {
                   return (
                     <React.Fragment key={index}>
                       <li>
@@ -78,7 +78,7 @@ const Navbar = class extends React.Component {
                           </Link>
                         }
                       </li>
-                      {index < Menu.nav.length - 1 ? <li className="separator"> | </li> : null}
+                      {index < menu.nav.length - 1 ? <li className="separator"> | </li> : null}
                     </React.Fragment>
                   )
                 })}

@@ -3,7 +3,7 @@ import { withPrefix } from 'gatsby'
 import { Helmet } from 'react-helmet'
 import SEO from '../components/SEO'
 import TopBar from '../components/TopBar'
-import Navbar from '../components/Navbar'
+import Navigation from '../components/Navigation'
 import Footer from '../components/Footer'
 
 /* 
@@ -38,7 +38,7 @@ const TemplateWrapper = ({ children }) => {
       </Helmet>
       <SEO />
       <TopBar />
-      <Navbar />
+      <Navigation />
       <div>{children}</div>
       <Footer />
     </div>

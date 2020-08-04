@@ -11,7 +11,7 @@ header:
     subTitle: See the release notes
     title: v1.x Release available now
   buttons:
-    - link: '#'
+    - link: '/community/'
       text: Get Started
   display: true
   subTitle:
@@ -41,7 +41,7 @@ review:
     text: Interested in highlighting your usage?
     button:
       text: Contact Us
-      link: '#'
+      link: 'info@openinfralabs.org'
   display: true
   opinions:
     - company: Company
