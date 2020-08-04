@@ -2,92 +2,74 @@
 templateKey: index-page
 seo:
   description: OpenInfra Labs
-  image: /img/svg/logo.svg
+  image: /img/OpenInfraLabs-Logo-RGB-Stacked.svg
   title: Home
+  twitterUsername: '@openstack'
   url: 'https://openinfralabs.org/'
 header:
-  subTitle: >-
-    <span>An <a href="https://osf.dev" target="_blank" rel="noopener">OSF</a>
-    Project</span>
-  title: OPENINFRA LABS
-intro:
-  text: >
-    OpenInfra Labs is a community, created by and for infrastructure providers
-    and operators, integrating and optimizing different layers of the
-    infrastructure, testing open source code in production, publishing complete,
-    reproducible stacks for existing & emerging workloads, to advance open
-    source infrastructure.  
+  bottomText:
+    subTitle: See the release notes
+    title: v1.x Release available now
+  buttons:
+    - link: '#'
+      text: Get Started
+  display: true
+  subTitle:
+    - text: An OSF Project
   title: Connecting open source projects to production
+mainpitch:
+  description:
+    - text: >
+        OpenInfra Labs is a community, created by and for infrastructure providers and operators, integrating and optimizing different layers of the infrastructure, testing open source code in production, publishing complete, reproducible stacks for existing & emerging workloads, to advance open source infrastructure. 
+  display: true
+  title: About OpenInfra Labs
 features:
-  featureList:
-    - details: >-
-        Integration, optimization, and testing of the complete infrastructure
-        stack to support  complete use cases
-      image: /img/svg/test.svg
-      title: Integrated testing
-    - details: >-
-        Documentation and bridging of operational, functional, and
-        non-functional gaps to run upstream projects in a production environment
-      image: /img/svg/docs.svg
+  display: true
+  rows:
+    - text: >
+        Integration, optimization, and testing of the complete infrastructure stack to support complete use cases 
+      title: Testing
+    - text: >
+        Documentation and bridging of operational, functional, and non-functional gaps to run upstream projects in a production environment
       title: Documentation
-    - details: >-
-        Shared code repositories for cross-layer optimization, operational
-        tooling and the "glue" code that is often written independently by users
-      image: /img/svg/code.svg
-      title: Share repositories
-  title: >-
-    Delivering open source tools to run cloud, container, AI, machine learning
-    and edge workloads efficiently, repeatedly and predictably
-sponsors:
-  sponsorList:
-    - logo: /img/sponsors/boston-university.png
-    - logo: /img/sponsors/harvard-university.png
-    - logo: /img/sponsors/mit.png
-    - logo: /img/sponsors/northeastern-university.png
-    - logo: /img/sponsors/umass.png
-    - logo: /img/sponsors/columbia-university-logo.png
-    - logo: /img/sponsors/TheOhioStateUniversity-Stacked.png
-    - logo: /img/sponsors/commonwealth-massachusetts.png
-    - logo: /img/sponsors/intel.png
-    - logo: /img/sponsors/red-hat.png
-    - logo: /img/sponsors/futurewei.png
-    - logo: /img/troila-sm copy.jpg
-    - logo: /img/Untitled-2.jpg
-    - logo: /img/dell-sm copy.jpg
-    - logo: /img/citynetwork-sm copy.jpg
-    - logo: /img/ampere-sm.jpg
-    - logo: /img/cdac-sm.png
-    - logo: /img/gresearch-sm.jpg
-    - logo: /img/click2cloud-sm.jpg
-    - logo: /img/whitestack_google.png
-    - logo: /img/warescale-1.png
-    - logo: /img/vexxhost-sm.jpg
-  title: Participants & Supporters
+    - text: >
+        Shared code repositories for cross-layer optimization, operational tooling and the "glue" code that is often written independently by users
+      title: Optimization
+  title: Delivering open source tools to run cloud, container, AI, machine learning and edge workloads efficiently, repeatedly and predictably
+review:
+  bottom: 
+    text: Interested in highlighting your usage?
+    button:
+      text: Contact Us
+      link: '#'
+  display: true
+  opinions:
+    - company: Company
+      opinion: >
+        This is a quote from one of the project's users. Ideally, we will have
+        something like this, with substance, to validate the claim that this
+        brand name uses and likes the project if we don't have a logo
+      person: John Doe
+      title: Title
+    - company: Company
+      opinion: >
+        This is a quote from one of the project's users. Ideally, we will have
+        something like this, with substance, to validate the claim that this
+        brand name uses and likes the project if we don't have a logo
+      person: John Doe
+      title: Title
+    - company: Company
+      opinion: >
+        This is a quote from one of the project's users. Ideally, we will have
+        something like this, with substance, to validate the claim that this
+        brand name uses and likes the project if we don't have a logo        
+      person: John Doe
+      title: Title
+  text: >
+    What's the quickest way to give a project the perception of credibility?
+    Tell the reader that people (or organizations) they know are already using
+    it. The most effective way to do that is with logos, but if logos aren't
+    available we can use text.
+  title: 'Users show credibility, without logos'
 ---
 
-### Activities
-
-Key development activities in OpenInfra Labs include:
-
-- Operate First: making cloud operations as fundamental as functionality in the upstreams. 
-[Read the Operate First Community Manifesto](/operate-first-community-manifesto/).
-
-- Project Caerus: improving coordination between compute and storage systems for big data and AI workloads. 
-[Read the Project Caerus Manifesto](https://gitlab.com/open-infrastructure-labs/caerus/-/blob/master/Manifesto.pdf).
-
-- Elastic Secure Infrastructure: enabling infrastructure to be securely provisioned and moved between different services. 
-[Visit the ESI project page](https://www.bu.edu/rhcollab/projects/esi/)
-
-- Project Wenju: accelerating time to value for enterprise AI via integrated and simplified development and operations. [Read the Project Wenju manifesto](https://gitlab.com/open-infrastructure-labs/wenju/-/blob/master/Project%20Wenju%20Manifesto%20v1.pdf)
-
-### Get Involved
-If you are building or operating infrastructure for university or research usage, join forces with OpenInfra Labs today.
-
-If you are a technology vendor or provider who would like to participate in OpenInfra labs, contact us at [info@openinfralabs.org](mailto:info@openinfralabs.org)
-
-### Connect with the Community via these channels
-
-- Freenode IRC: #openinfralabs
-- Mailing list: <http://lists.opendev.org/cgi-bin/mailman/listinfo/openinfralabs>
-- Code Repository: https://gitlab.com/open-infrastructure-labs
-	- Meeting Notes: https://gitlab.com/open-infrastructure-labs/nerc-architecture

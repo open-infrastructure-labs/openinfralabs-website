@@ -2,17 +2,16 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { IndexPageTemplate } from '../../templates/index-page'
 
-const IndexPagePreview = ({ entry, getAsset, widgetFor }) => {
+const IndexPagePreview = ({ entry, getAsset }) => {
   const data = entry.getIn(['data']).toJS()
-  
-  if (data) {
-    return (
-      <IndexPageTemplate
+
+  if (data) {    
+    return (      
+      <IndexPageTemplate        
         header={data.header || {}}
-        intro={data.intro || {}}
+        mainpitch={data.mainpitch || {}}
         features={data.features || {}}
-        sponsors={data.sponsors || {}}
-        content={widgetFor('body')}
+        review={data.review || {}}
       />
     )
   } else {

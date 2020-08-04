@@ -1,8 +1,9 @@
 import React from 'react'
-import LinkComponent from './LinkComponent'
-import data from "../content/nav-bar.json"
+import { Link } from 'gatsby'
+import { OutboundLink } from 'gatsby-plugin-google-analytics'
+import Menu from "../content/navbar.json"
 
-const NavBar = class extends React.Component {
+const Navbar = class extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
@@ -32,51 +33,62 @@ const NavBar = class extends React.Component {
   }
 
   render() {
-    if (data.navBar.length > 0 && data.navBar.some((element) => element.display === true)) {
-      return (
-        <nav className="nav navbar is-transparent" role="navigation" aria-label="main-navigation">
-          <div className="">
-            <div className="nav-inner">
+    return (
+      <nav
+        className="nav navbar is-transparent"
+        role="navigation"
+        aria-label="main-navigation"
+      >
+        <div className="container">
+          <div className="nav-inner">
+            {Menu.logo &&
               <div className="nav-brand">
+                <Link to="/" title="OpenInfra Labs Website Logo">
+                  <img src={Menu.logo} alt="OpenInfra Labs Website" />
+                </Link>
                 {/* Hamburger menu */}
               </div>
-              <div
-                className={`navbar-burger burger ${this.state.navBarActiveClass}`}
-                data-target="navMenu"
-                onClick={() => this.toggleHamburger()}
-              >
-                <span></span>
-                <span></span>
-                <span></span>
-              </div>
-              <div
-                id="navMenu"
-                className={`nav-content ${this.state.navBarActiveClass}`}
-              >
-                <ul className="nav-menu nobullet navbar-start has-text-centered">
-                  {data.navBar.map((li, index) => {
-                    if (li.display) {
-                      return (
-                        <React.Fragment>
-                          <a href={li.link}>
-                            <li>{li.text}</li>
-                          </a>
-                          {index + 1 < data.navBar.length ? <React.Fragment><span>|</span><br /></React.Fragment> : null}
-                        </React.Fragment>
-                      )
-                    }
-                  })}
-                </ul>
-              </div>
+            }
+            <div
+              className={`navbar-burger burger ${this.state.navBarActiveClass}`}
+              data-target="navMenu"
+              role="button"
+              tabIndex="0"
+              onClick={() => this.toggleHamburger()}
+              onKeyDown={() => this.toggleHamburger()}
+            >
+              <span />
+              <span />
+              <span />
+            </div>
+            <div
+              id="navMenu"
+              className={`nav-content ${this.state.navBarActiveClass}`}
+            >
+              <ul className="nav-menu nobullet navbar-start has-text-centered">
+                {Menu.nav.map((data, index) => {
+                  return (
+                    <React.Fragment key={index}>
+                      <li>
+                        {data.link.match(/^https?:\/\//) ?
+                          <OutboundLink href={data.link} target="_blank" rel="noopener noreferrer">{data.text}</OutboundLink>
+                          :
+                          <Link to={data.link}>
+                            {data.text}
+                          </Link>
+                        }
+                      </li>
+                      {index < Menu.nav.length - 1 ? <li className="separator"> | </li> : null}
+                    </React.Fragment>
+                  )
+                })}
+              </ul>
             </div>
           </div>
-        </nav>
-      )
-    } else {
-      return null;
-    }
-
+        </div>
+      </nav>
+    )
   }
 }
 
-export default NavBar
+export default Navbar

@@ -1,16 +1,24 @@
 {
   "title": "Blog",
-  "subTitle": "Learn about MOC and Open Infrastracture",
+  "subTitle": "News, announcements, best practices, use cases and more.",
   "categories": [
+    {
+      "text": "News & Announcements",
+      "id": "category-A7fnZYrE1"
+    }
   ],
   "connect": [
     {
       "text": "Mailing Lists",
-      "link": "http://lists.opendev.org/cgi-bin/mailman/listinfo/openinfralabs"
+      "link": "#"
     },
     {
-      "text": "Freenode IRC: #openinfralabs",
-      "link": "https://webchat.freenode.net/?channels=openinfralabs"
+      "text": "Weekly Calls",
+      "link": "#"
+    },
+    {
+      "text": "Freenode IRC",
+      "link": "#"
     }
   ]
 }

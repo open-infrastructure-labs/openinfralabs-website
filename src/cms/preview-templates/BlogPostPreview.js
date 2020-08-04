@@ -8,7 +8,7 @@ const BlogPostPreview = ({ entry, widgetFor }) => {
     <BlogPostTemplate
       content={widgetFor('body')}
       title={entry.getIn(['data', 'title'])}
-      author={entry.getIn(['data', 'author'])}      
+      author={entry.getIn(['data', 'author'])}
       date={moment(entry.getIn(['data', 'date'])).format('L')}
     />
   )

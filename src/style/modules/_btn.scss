@@ -3,8 +3,9 @@
 \* ------------------------------------------------------------ */
 
 .button {
+  margin: 0 10px 0 0;
   height: auto;
-  padding: 11px 45px;
+  padding: 11px 40px;
   text-transform: uppercase;
   transition: background 0.3s;
 
@@ -25,11 +26,39 @@
     margin-left: 15px;
     font-size: 0;
     line-height: 0;
+    color: $primary-dark;
+  }
+
+  &.is-primary {
+    background: $primary-dark;
+    color: white;
+    border: none;    
+  }
+
+  &.is-newsletter {
+    color: $white;
+    border: 1px solid $primary;    
+  }
+
+  @media only screen and (max-width: 752px) {
+    &.is-primary{
+      margin-bottom: 15px;
+    }
+  } 
+
+  &.is-primary:hover {
+    color: $primary-dark;
+    background: $primary-dark-invert; 
+    border: none; 
   }
 
   &.is-primary-dark {
     background: $primary-dark;
-    color: white;
+    color: $white;
     border: $primary-dark;
   }
+}
+
+.hero-actions {
+  margin: 0 auto;
 }

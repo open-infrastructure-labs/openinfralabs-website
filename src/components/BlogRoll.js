@@ -1,9 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { graphql, StaticQuery } from 'gatsby'
+import { graphql, StaticQuery, Link } from 'gatsby'
 import { kebabCase } from 'lodash'
-
-import LinkComponent from './LinkComponent'
 
 class BlogRoll extends React.Component {
   render() {
@@ -12,23 +10,23 @@ class BlogRoll extends React.Component {
 
     return (        
         posts && posts.length === 0 ? 
-          <div>No blog entries published yet.</div>
+          <div>There don't seem to be any posts that match.</div>
         :
-          posts.map(({ node: post }) => {            
+          posts.map(({ node: post }) => {
             if(customFilter) {
               if(post.frontmatter.author === customFilter || post.frontmatter.category[0].label === customFilter) {
                 return (            
                   <div className="article-excerpt" metalink="https://www.google.com/" key={post.id}>
-                    <h3 className="article-excerpt-title">
-                      <LinkComponent href={post.fields.slug} className="">{post.frontmatter.title}</LinkComponent>
-                    </h3> 
+                    <h5 className="article-excerpt-title">
+                      <a href={post.fields.slug} className="">{post.frontmatter.title}</a>
+                    </h5> 
                     <div className="article-excerpt-entry">
                       <div>
                         <p>{post.excerpt}</p>
                       </div>
                     </div> 
                     <div className="article-excerpt-meta">
-                      <p>By <LinkComponent href={`/author/${kebabCase(post.frontmatter.author)}/`}>{post.frontmatter.author}</LinkComponent> on {post.frontmatter.date}</p>                
+                      <p>By <Link to={`/author/${kebabCase(post.frontmatter.author)}/`}>{post.frontmatter.author}</Link> on {post.frontmatter.date}</p>                
                     </div>
                   </div>
                 )
@@ -38,16 +36,16 @@ class BlogRoll extends React.Component {
             } else {
               return (            
                 <div className="article-excerpt" metalink="https://www.google.com/" key={post.id}>
-                  <h3 className="article-excerpt-title">
-                    <LinkComponent href={post.fields.slug} className="">{post.frontmatter.title}</LinkComponent>
-                  </h3> 
+                  <h5 className="article-excerpt-title">
+                    <a href={post.fields.slug} className="">{post.frontmatter.title}</a>
+                  </h5> 
                   <div className="article-excerpt-entry">
                     <div>
                       <p>{post.excerpt}</p>
                     </div>
                   </div> 
                   <div className="article-excerpt-meta">
-                    <p>By <LinkComponent href={`/author/${kebabCase(post.frontmatter.author)}/`}>{post.frontmatter.author}</LinkComponent> on {post.frontmatter.date}</p>                
+                    <p>By <Link to={`/author/${kebabCase(post.frontmatter.author)}/`}>{post.frontmatter.author}</Link> on {post.frontmatter.date}</p>                
                   </div>
                 </div>                
               )

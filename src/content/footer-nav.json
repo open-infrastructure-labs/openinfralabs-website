@@ -1,0 +1,17 @@
+{
+  "productName": "OpenInfra Labs",
+  "pages": [
+    {
+      "text": "Home",
+      "link": "/"
+    },
+    {
+      "text": "Community",
+      "link": "/community/"
+    },
+    {
+      "text": "Operate First Community Manifesto",
+      "link": "/operate-first-manifesto/"
+    }   
+  ]
+}

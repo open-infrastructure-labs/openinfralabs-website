@@ -2,9 +2,10 @@
   "siteMetadata": {
     "title": "OpenInfra Labs",
     "titleTemplate": "%s | OpenInfra Labs",
-    "description": "OpenInfra Labs",
-    "url": "https://openinfralabs.org/",
-    "image": "/img/og-image.png",
-    "themeColor": "#685bc7"
+    "description": "Website for OpenInfra Labs",
+    "url": "",
+    "image": "/img/OpenInfraLabs-Logo-RGB-Horiz-White.svg",
+    "twitterUsername": "@openstack",
+    "themeColor": "#65C7C2"
   }
 }

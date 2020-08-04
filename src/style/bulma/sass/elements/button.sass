@@ -137,9 +137,13 @@ $button-static-border-color: $grey-lighter !default
         box-shadow: none
       &.is-inverted
         background-color: $color-invert
+        border: 1px solid
+        border-color: $color
         color: $color
         &:hover
-          background-color: darken($color-invert, 5%)
+          background-color: $color
+          color: $white
+          // background-color: darken($color-invert, 50%)
         &[disabled]
           background-color: $color-invert
           border-color: transparent

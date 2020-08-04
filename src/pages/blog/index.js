@@ -1,13 +1,13 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import { kebabCase } from 'lodash'
+import { Link } from 'gatsby'
 
 import Layout from '../../components/Layout'
 import BlogRoll from '../../components/BlogRoll'
 
 import blogConfig from '../../content/blog-config.json'
 import metadata from '../../content/site-metadata.json'
-import LinkComponent from '../../components/LinkComponent'
 
 export default class BlogIndexPage extends React.Component {
 
@@ -16,7 +16,7 @@ export default class BlogIndexPage extends React.Component {
     const {filter} = this.props;
     return (
       <Layout>
-        <main className="home-blog">
+        <main className="main">
           {blogConfig && 
           <Helmet title={blogConfig.title ? blogConfig.title : metadata.siteMetadata.title} titleTemplate={metadata.siteMetadata.titleTemplate}>        
             {blogConfig.subTitle && <meta name="description" content={blogConfig.subTitle} />}            
@@ -31,15 +31,15 @@ export default class BlogIndexPage extends React.Component {
             )}            
           </Helmet>
           }
-          <div className="top-line"></div>
+          <div className="top-line"></div> 
           <section className="hero-intro is-primary hero">
             <div className="hero-body">
               <div className="container container-thin">
                 <div className="hero-content">
-                  <h3 className="blog-title">
+                  <h3 className="hero-title">
                     {blogConfig.title}
                   </h3>
-                  <div className="blog-subtitle">
+                  <div className="hero-entry">
                     <p>
                       {blogConfig.subTitle}
                     </p>
@@ -60,32 +60,28 @@ export default class BlogIndexPage extends React.Component {
                 </div>
                 <aside className="sidebar">
                   <ul className="widgets">
-                    { blogConfig.categories && blogConfig.categories.length > 0 &&
-                      <li className="widget item-no-bullet">
-                        <div className="widget-head">
-                          <h4 className="widget-title">Categories</h4>
-                        </div> 
-                        <div className="widget-body">
-                          <ul className="widget-list">
-                            {blogConfig.categories.map(category => <li><LinkComponent href={`/category/${kebabCase(category.text)}/`}>{category.text}</LinkComponent></li>)}
-                          </ul>
-                        </div>
-                      </li> 
-                    }
-                    { blogConfig.connect && blogConfig.connect.length > 0 &&         
-                      <li className="widget item-no-bullet">
-                        <div className="widget-head">
-                          <h4 className="widget-title">Connect</h4>
-                        </div> 
-                        <div className="widget-body">
-                          <ul className="widget-list">
-                            {blogConfig.connect.map(link => <li><LinkComponent href={link.link}>{link.text}</LinkComponent></li>)}
-                          </ul>
-                        </div>
-                      </li>
-                    }
+                    <li className="widget item-no-bullet">
+                      <div className="widget-head">
+                        <h6 className="widget-title">Categories</h6>
+                      </div> 
+                      <div className="widget-body">
+                        <ul className="widget-list">
+                          {blogConfig.categories.map(category => <li><Link to={`/category/${kebabCase(category.text)}/`}>{category.text}</Link></li>)}
+                        </ul>
+                      </div>
+                    </li> 
+                    <li className="widget item-no-bullet">
+                      <div className="widget-head">
+                        <h6 className="widget-title">Connect</h6>
+                      </div> 
+                      <div className="widget-body">
+                        <ul className="widget-list">
+                          {blogConfig.connect.map(link => <li><a href={link.link} target="_blank" rel="noopener noreferrer">{link.text}</a></li>)}                          
+                        </ul>
+                      </div>
+                    </li>
                   </ul>
-                </aside>
+                </aside>            
               </div>
             </div>          
           </div>

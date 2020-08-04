@@ -1,17 +1,23 @@
 import React from 'react'
+import { withPrefix } from 'gatsby'
 import { Helmet } from 'react-helmet'
 import SEO from '../components/SEO'
+import TopBar from '../components/TopBar'
+import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
+
+/* 
+Change imported stylesheet to style-b.scss for blueprint look
+Change to style.scss for designed look 
+*/
+
 import '../style/style.scss'
-import { withPrefix } from 'gatsby'
-import TopBar from './TopBar'
-import NavBar from './NavBar'
 
 const TemplateWrapper = ({ children }) => {
   return (
     <div>
       <Helmet>
         <html lang="en" />
-
         <link
           rel="apple-touch-icon"
           sizes="180x180"
@@ -29,17 +35,12 @@ const TemplateWrapper = ({ children }) => {
           href={`${withPrefix('/')}img/favicon-16x16.png`}
           sizes="16x16"
         />
-
-        <link
-          rel="mask-icon"
-          href={`${withPrefix('/')}img/safari-pinned-tab.svg`}
-          color="#ff4400"
-        />
       </Helmet>
       <SEO />
       <TopBar />
-      <NavBar />
+      <Navbar />
       <div>{children}</div>
+      <Footer />
     </div>
   )
 }

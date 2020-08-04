@@ -1,5 +1,13 @@
 ---
-home: false
+templateKey: default-page
+seo:
+  description: 'Operate First Community Manifesto'
+  image: /img/og-image.jpg
+  title: Operate First Community Manifesto
+  twitterUsername: '@airshipproject'
+  url: 'https://openinfralabs.org/'
+title: Operate First Community Manifesto
+subTitle: 'Join to contribute code, documentation, and use cases'
 ---
 
 # Operate First Community Manifesto

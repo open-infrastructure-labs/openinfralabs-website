@@ -1,0 +1,17 @@
+{
+  "logo": "/img/OpenInfraLabs-Logo-RGB-Horiz-White.svg",
+  "nav": [
+    {
+      "text": "Home",
+      "link": "/"
+    },
+    {
+      "text": "Community",
+      "link": "/community/"
+    },
+    {
+      "text": "Supporters",
+      "link": "/supporters/"
+    }
+  ]
+}
