@@ -45,6 +45,8 @@ sponsors:
     - logo: /img/sponsors/mit.png
     - logo: /img/sponsors/northeastern-university.png
     - logo: /img/sponsors/umass.png
+    - logo: /img/sponsors/columbia-university-logo.png
+    - logo: /img/sponsors/TheOhioStateUniversity-Stacked.png
     - logo: /img/sponsors/commonwealth-massachusetts.png
     - logo: /img/sponsors/intel.png
     - logo: /img/sponsors/red-hat.png
@@ -76,7 +78,7 @@ Key development activities in OpenInfra Labs include:
 - Elastic Secure Infrastructure: enabling infrastructure to be securely provisioned and moved between different services. 
 [Visit the ESI project page](https://www.bu.edu/rhcollab/projects/esi/)
 
-- Project Wenju: accelerating time to value for enterprise AI via integrated and simplified development and operations. [Read the Project Wenju manifesto](https://drive.google.com/file/d/12JY_mIdBMFzaqP-lppHkUdjgWxMVRBXu/view?usp=sharing)
+- Project Wenju: accelerating time to value for enterprise AI via integrated and simplified development and operations. [Read the Project Wenju manifesto](https://gitlab.com/open-infrastructure-labs/wenju/-/blob/master/Project%20Wenju%20Manifesto%20v1.pdf)
 
 ### Get Involved
 If you are building or operating infrastructure for university or research usage, join forces with OpenInfra Labs today.
