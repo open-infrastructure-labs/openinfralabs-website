@@ -20,7 +20,7 @@ header:
 mainpitch:
   description:
     - text: >
-        OpenInfra Labs is a community, created by and for infrastructure providers and operators, integrating and optimizing different layers of the infrastructure, testing open source code in production, publishing complete, reproducible stacks for existing & emerging workloads, to advance open source infrastructure. 
+        OpenInfra Labs is a community of infrastructure providers and operators. We integrate and optimize open source projects in production environments and publish complete, reproducible stacks for existing and emerging workloads. 
   display: true
   title: About OpenInfra Labs
 features:
