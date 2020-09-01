@@ -3,7 +3,7 @@ templateKey: supporters-page
 seo:
   description: OpenInfra Labs Supporting Organizations
   image: /img/OpenInfraLabs-Logo-RGB-Stacked.svg
-  title: Supporters
+  title: OpenInfra Labs Supporting Organizations
   twitterUsername: '@openstack'
   url: 'https://openinfralabs.org/supporters/'
 title: Supporters
@@ -77,6 +77,6 @@ supporters:
   title: Supporting Organizations
 ---
 
-OpenInfra Labs is an open source community stewarded by the OpenStack Foundation (OSF).
+OpenInfra Labs is an open source community supported by the OpenStack Foundation (OSF).
 
 
