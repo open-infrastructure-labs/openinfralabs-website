@@ -1,9 +1,9 @@
 ---
 templateKey: index-page
 seo:
-  description: OpenInfra Labs
+  description: We integrate and optimize open source projects in production environments and publish complete, reproducible stacks for existing and emerging workloads. 
   image: /img/OpenInfraLabs-Logo-RGB-Stacked.svg
-  title: Home
+  title: Home - OpenInfra Labs
   twitterUsername: '@openstack'
   url: 'https://openinfralabs.org/'
 header:

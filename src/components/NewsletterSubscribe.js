@@ -25,7 +25,7 @@ const NewsletterSubscribe = class extends React.Component {
               </div>
             </div>
             <div className="field has-addons-centered">
-              <form method="post" id="e2ma_signup" onSubmit="return signupFormObj.checkForm(this)" action="https://app.e2ma.net/app2/audience/signup/1926357/1771360/">
+              <form method="post" id="e2ma_signup" onSubmit="return signupFormObj.checkForm(this)" action="https://signup.e2ma.net/signup/1926357/1771360/">
                 <input id="id_prev_member_email" name="prev_member_email" type="hidden" />
                 <input id="id_source" name="source" type="hidden" />
                 <input id="id_group_4036448" name="group_4036448" type="hidden" value="4036448" />
