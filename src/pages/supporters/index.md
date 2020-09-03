@@ -34,7 +34,7 @@ supporters:
       image: /img/sponsors/commonwealth-massachusetts.png
     - alt: Intel
       class: img-sponsor-l4
-      image: /img/sponsors/intel.png
+      image: /img/sponsors/intel-sm.png
     - alt: City Network
       class: img-sponsor-l4
       image: /img/sponsors/citynetwork-sm copy.jpg
