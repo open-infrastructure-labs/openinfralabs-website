@@ -37,6 +37,11 @@
     }
   }
 
+  .nav-brand {
+    position: absolute;
+    left: 0;
+  }
+
   .nav-content {
     justify-content: space-between;
     max-width: 100%;
@@ -50,7 +55,7 @@
     }
 
   .nav-brand  img {
-      width: 200px;
+      width: 130px;
   }
 
   .nav-menu {
