@@ -77,6 +77,6 @@ supporters:
   title: Supporting Organizations
 ---
 
-OpenInfra Labs is an open source community supported by the OpenStack Foundation (OSF).
+OpenInfra Labs is an open source community supported by the Open Infrastructure Foundation.
 
 
