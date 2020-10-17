@@ -15,7 +15,7 @@ header:
       text: Get Started
   display: true
   subTitle:
-    - text: An OSF Project
+    - text: An Open Infrastructure Foundation Project
   title: Connecting open source projects to production
 mainpitch:
   description:
