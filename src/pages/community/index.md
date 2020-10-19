@@ -9,7 +9,7 @@ seo:
 title: Community
 subTitle: 'Join to contribute code, documentation, and use cases'
 ---
-OpenInfra Labs is a global open source community supported by the OpenStack Foundation. Our ethos is user-driven and our culture is welcoming and respectful. We invite you to try out Open Infralabs, provide your feedback and get involved in contributing to the code.   
+OpenInfra Labs is a global open source community supported by the Open Infrastructure Foundation. Our ethos is user-driven and our culture is welcoming and respectful. We invite you to try out Open Infralabs, provide your feedback and get involved in contributing to the code.   
 
 - - -
 

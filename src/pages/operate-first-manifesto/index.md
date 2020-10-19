@@ -18,7 +18,7 @@ Likewise the concept has been exposed and embraced by the open source cloud comm
 Another is that consuming public cloud is not always cost effective and standing up an open source
 alternative presents many challenges from the skill sets needed to run them and the lack of an open 
 source community to address complex operational issues, which leaves potential operators on their own.
-Yet another is the creation of OpenInfra Labs by the OpenStack Foundation (OSF) to foster an
+Yet another is the creation of OpenInfra Labs by the Open Infrastructure Foundation to foster an
 upstream geared toward open source cloud operations (Note that the scope neither requires nor is limited
 to Openstack specifically, it is intended to be a place where any and all open source cloud projects are
 welcome). Still another is a realization that AI aided operations are needed to lower the barriers to open
