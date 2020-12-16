@@ -33,7 +33,7 @@ Key development activities in OpenInfra Labs include:
 
 * Mailing list: [http://lists.opendev.org/cgi-bin/mailman/listinfo/openinfralabs](http://lists.opendev.org/cgi-bin/mailman/listinfo/openinfralabs)
 
-* Code Repository: [https://gitlab.com/open-infrastructure-labs](https://gitlab.com/open-infrastructure-labs)
+* Code Repository: [https://github.com/open-infrastructure-labs](https://github.com/open-infrastructure-labs)
 
 * Meeting Notes: [https://gitlab.com/open-infrastructure-labs/nerc-architecture](https://gitlab.com/open-infrastructure-labs/nerc-architecture)
 
