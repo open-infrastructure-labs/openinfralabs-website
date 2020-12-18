@@ -19,7 +19,7 @@ Key development activities in OpenInfra Labs include:
 
 * Operate First: making cloud operations as fundamental as functionality in the upstreams.<br/>[**Read the Operate First Community Manifesto**](/operate-first-manifesto/).
 
-* Project Caerus: improving coordination between compute and storage systems for big data and AI workloads.<br/>[**Read the Project Caerus Manifesto**](https://gitlab.com/open-infrastructure-labs/caerus/-/blob/master/Manifesto.pdf)
+* Project Caerus: improving coordination between compute and storage systems for big data and AI workloads.<br/>[**Read the Project Caerus Manifesto**](https://github.com/open-infrastructure-labs/caerus/blob/master/Manifesto.pdf)
 
 * Elastic Secure Infrastructure: enabling infrastructure to be securely provisioned and moved between different services.<br/>[**Visit the ESI project page**](https://www.bu.edu/rhcollab/projects/esi/)
 
@@ -35,5 +35,5 @@ Key development activities in OpenInfra Labs include:
 
 * Code Repository: [https://github.com/open-infrastructure-labs](https://github.com/open-infrastructure-labs)
 
-* Meeting Notes: [https://gitlab.com/open-infrastructure-labs/nerc-architecture](https://gitlab.com/open-infrastructure-labs/nerc-architecture)
+* Monitoring Meeting Notes: [https://etherpad.opendev.org/p/Open_Infra_Labs_Monitoring_Meeting](https://etherpad.opendev.org/p/Open_Infra_Labs_Monitoring_Meeting)
 
