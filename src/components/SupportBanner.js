@@ -25,7 +25,7 @@ const SupportBanner = class extends React.Component {
           <a href="https://openinfra.dev/">
             <img className="osf-logo" src={OIF} width='250px' alt="OIF Logo" /></a>*/} 
             <div className="support-content-info">
-              {content.productName} is an open infrastructure project supported by the <a className="osf-link" href={"https://openinfra.dev/"}>Open Infrastructure Foundation (OIF)</a>
+              {content.productName} is an open infrastructure project supported by the <a className="osf-link" href={"https://openinfra.dev/"}>Open Infrastructure Foundation (OpenInfra Foundation)</a>
             </div>
           </div>
         </section>
