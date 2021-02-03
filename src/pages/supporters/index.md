@@ -2,7 +2,7 @@
 templateKey: supporters-page
 seo:
   description: OpenInfra Labs Supporting Organizations
-  image: /img/OpenInfraLabs-Logo-RGB-Stacked.svg
+  image: /img/openinfra-og.png
   title: OpenInfra Labs Supporting Organizations
   twitterUsername: '@openstack'
   url: 'https://openinfralabs.org/supporters/'

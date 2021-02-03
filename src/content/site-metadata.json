@@ -4,7 +4,7 @@
     "titleTemplate": "%s | OpenInfra Labs",
     "description": "Website for OpenInfra Labs",
     "url": "",
-    "image": "/img/OpenInfraLabs-Logo-RGB-Horiz-White.svg",
+    "image": "/img/openinfra-og.png",
     "twitterUsername": "@openstack",
     "themeColor": "#65C7C2"
   }
