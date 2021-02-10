@@ -2,7 +2,7 @@
 templateKey: default-page
 seo:
   description: 'Join to contribute code, documentation, and use cases'
-  image: /img/OpenInfraLabs-Logo-RGB-Stacked.svg
+  image: /img/openinfra-og.png
   title: Community - OpenInfralabs
   twitterUsername: '@openstack'
   url: 'https://openinfralabs.org/community/'

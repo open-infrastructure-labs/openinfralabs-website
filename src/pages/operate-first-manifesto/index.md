@@ -1,7 +1,7 @@
 ---
 templateKey: default-page
 seo:
-  image: /img/OpenInfraLabs-Logo-RGB-Stacked.svg
+  image: /img/openinfra-og.png
   title: Operate First Community Manifesto
   description: To foster an upstream geared toward open source cloud operations.
   twitterUsername: '@openstack'
