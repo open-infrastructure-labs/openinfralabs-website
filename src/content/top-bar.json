@@ -1,9 +1,9 @@
 {
   "bar": {
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    "link": "#",
-    "button": "Sed id",
-    "display": false,
+    "text": "Check out the accomplishments of the global OpenInfra community in 2020 in the annual report",
+    "link": "https://www.openstack.org/annual-reports/2020-openinfra-foundation-annual-report/",
+    "button": "Read Now",
+    "display": true,
     "logo": ""
   }
 }
