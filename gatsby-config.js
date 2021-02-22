@@ -84,7 +84,7 @@ module.exports = {
         // Setting this parameter is optional
         anonymize: true,
         // Setting this parameter is also optional
-        respectDNT: true,        
+        respectDNT: true,
       },
     },
     {
@@ -96,7 +96,7 @@ module.exports = {
         ],
         // This object gets passed directly to the gtag config command
         // This config will be shared across all trackingIds
-        gtagConfig: {          
+        gtagConfig: {
           anonymize_ip: true,
           cookie_expires: 0,
         },
@@ -126,7 +126,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-offline`,
       options: {
-        precachePages: [``],
+        precachePages: [`/blog/*`, `/supporters/`, `/community/`, `/operate-first-manifesto/`, `/pages/*`],
       },
     },
     {
@@ -147,9 +147,9 @@ module.exports = {
       options: {
         enableIdentityWidget: true,
         htmlTitle:
-         `OpenInfra Labs | Content Manager`,
-        includeRobots: false, 
+          `OpenInfra Labs | Content Manager`,
+        includeRobots: false,
       }
-    }    
+    }
   ],
 }
