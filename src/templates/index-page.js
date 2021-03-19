@@ -8,6 +8,7 @@ import Header from '../components/Header'
 
 import metadata from '../content/site-metadata.json'
 import Mainpitch from '../components/Mainpitch'
+import SecondaryMainpitch from '../components/SecondaryMainpitch'
 import Features from '../components/Features'
 import NewsletterSubscribe from '../components/NewsletterSubscribe'
 
@@ -15,6 +16,7 @@ export const IndexPageTemplate = ({
   seo,
   header,
   mainpitch,
+  secondarymainpitch,
   features
 }) => (
     <div>
@@ -49,6 +51,7 @@ IndexPageTemplate.propTypes = {
   seo: PropTypes.object,
   header: PropTypes.object,
   mainpitch: PropTypes.object,
+  secondarymainpitch: PropTypes.object,
   features: PropTypes.object,
 }
 
@@ -61,6 +64,7 @@ const IndexPage = ({ data }) => {
         seo={frontmatter.seo}
         header={frontmatter.header}
         mainpitch={frontmatter.mainpitch}
+        secondarymainpitch={frontmatter.secondarymainpitch}
         features={frontmatter.features}
       />
       <NewsletterSubscribe />
@@ -109,6 +113,13 @@ export const pageQuery = graphql`
           }
         }                
         mainpitch {
+          display
+          title          
+          description {
+            text
+          }
+        }               
+        secondarymainpitch {
           display
           title          
           description {

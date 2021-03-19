@@ -25,6 +25,8 @@ Key development activities in OpenInfra Labs include:
 
 * Project Wenju: accelerating time to value for enterprise AI via integrated and simplified development and operations.<br/>[**Read the Project Wenju manifesto**](https://drive.google.com/file/d/12JY_mIdBMFzaqP-lppHkUdjgWxMVRBXu/view?usp=sharing)
 
+* The Telemetry working group, in addition to defining problem statements for research around telemetry, aims to provide access to a platform for telemetry research and create Open Data sets for all to use.<br/>[**Read more about the Telemetry working group**](/telemetry/)
+
 - - -
 
 ## Connect with the Community via these channels

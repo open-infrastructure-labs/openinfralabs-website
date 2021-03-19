@@ -37,7 +37,7 @@ const Mainpitch = class extends React.Component {
                     {description.map((desc, index) => {
                       return (
                         <h4 key={index}>
-                          {desc.text}
+                          {desc.text} <a href="http://www.operate-first.cloud" target="_blank">Find more on Operate First here</a>.
                         </h4>
                       )
                     })}

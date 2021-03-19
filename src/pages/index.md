@@ -15,14 +15,20 @@ header:
       text: Get Started
   display: true
   subTitle:
-    - text: An Open Infrastructure Foundation Project
+    - text: OpenInfra Labs is a community of infrastructure providers and operators who integrate and optimize open source projects in production. 
   title: Connecting open source projects to production
 mainpitch:
   description:
     - text: >
-        OpenInfra Labs is a community of infrastructure providers and operators. We integrate and optimize open source projects in production environments and publish complete, reproducible stacks for existing and emerging workloads. 
+        OpenInfra Labs is a place that also welcomes developers who are following the “Operate First” model of bringing their projects to a production cloud where they work with the open InfraLabs community to gain insights into operational considerations. That way they ensure their projects will integrate and operate well in production environments.
   display: true
-  title: About OpenInfra Labs
+  title: Operate First
+secondarymainpitch:
+  description:
+    - text: >
+        OpenInfra Labs is a place that also welcomes developers who are following the “Operate First” model of bringing their projects to a production cloud where they work with the open InfraLabs community to gain insights into operational considerations. That way they ensure their projects will integrate and operate well in production environments.
+  display: true
+  title: Operate First
 features:
   display: true
   rows:
