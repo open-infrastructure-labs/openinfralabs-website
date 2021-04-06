@@ -34,10 +34,17 @@ const Mainpitch = class extends React.Component {
                       <a href="#about-template" aria-hidden="true" className="header-anchor">#</a>
                       {title}
                     </h2>
+                    <h4>We are focused on delivering open source tools to build and run cloud, container, AI, big data and edge workloads efficiently, repeatedly and predictably. Our projects embrace three themes:</h4>
+
+                    <h4><strong>Operate First</strong> - helping developers gain insights into operational considerations and ensure their projects will integrate and operate well in production environments.</h4>
+        
+                    <h4><strong>Low-Code Development</strong> - enabling developers to build production-grade AI and big data applications without specialized skills and with a minimal level of coding.</h4>
+
+                    <h4><strong>Optimized Infrastructure</strong> - delivering infrastructure innovations to improve the performance of emerging workloads without burdening application developers.</h4>
                     {description.map((desc, index) => {
                       return (
                         <h4 key={index}>
-                          {desc.text} <a href="http://www.operate-first.cloud" target="_blank">Find more on Operate First here</a>.
+                          {desc.text} <a href="/community">Find more on our projects here</a>.
                         </h4>
                       )
                     })}

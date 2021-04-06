@@ -20,15 +20,20 @@ header:
 mainpitch:
   description:
     - text: >
-        OpenInfra Labs is a place that also welcomes developers who are following the “Operate First” model of bringing their projects to a production cloud where they work with the open InfraLabs community to gain insights into operational considerations. That way they ensure their projects will integrate and operate well in production environments.
   display: true
-  title: Operate First
+  title: About Us
 secondarymainpitch:
   description:
     - text: >
-        OpenInfra Labs is a place that also welcomes developers who are following the “Operate First” model of bringing their projects to a production cloud where they work with the open InfraLabs community to gain insights into operational considerations. That way they ensure their projects will integrate and operate well in production environments.
+        We are focused on delivering open source tools to build and run cloud, container, AI, big data and edge workloads efficiently, repeatedly and predictably. Our projects embrace three themes:
+
+        *Operate First* - helping developers gain insights into operational considerations and ensure their projects will integrate and operate well in production environments.
+        
+        *Low-Code Development* - enabling developers to build production-grade AI and big data applications without specialized skills and with a minimal level of coding.
+
+        *Optimized Infrastructure* - delivering infrastructure innovations to improve the performance of emerging workloads without burdening application developers.
   display: true
-  title: Operate First
+  title: About Us
 features:
   display: true
   rows:
