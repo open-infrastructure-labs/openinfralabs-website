@@ -53,7 +53,7 @@ const Mainpitch = class extends React.Component {
                       </div>
 
                       <div className="diagram">
-                      <img src="/img/svg/OiLabs-Diagram.svg" />
+                      
                       </div>
                     </div> 
                   </div>
