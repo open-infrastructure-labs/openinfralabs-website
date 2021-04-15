@@ -138,3 +138,43 @@ body {
   color: $gray;
   text-decoration: underline;
 }
+
+.about-section {
+  display: flex;
+  flex-direction: row;
+  margin-top: 60px;
+}
+
+@media only screen and (max-width: 752px) {
+  .about-section {
+    flex-direction: column;
+    margin-top: 30px;
+  }
+}
+
+.intro-paragraph {
+  width: 50%;
+  margin-right: 30px;
+}
+
+@media only screen and (max-width: 752px) {
+  .intro-paragraph {
+    width: 100%;
+    margin-right: unset;
+    margin-top: 30px;
+    order: 2;
+  }
+}
+
+.diagram {
+  width: 50%;
+  margin-left: 30px;
+}
+
+@media only screen and (max-width: 752px) {
+  .diagram  {
+    width: 100%;
+    margin-left: unset;
+    order: 1;
+  }
+}
