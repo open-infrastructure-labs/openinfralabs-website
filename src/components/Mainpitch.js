@@ -1,4 +1,5 @@
 import React from 'react'
+import VideoSection from '../components/VideoSection'
 
 import Zoom from 'react-medium-image-zoom'
 import 'react-medium-image-zoom/dist/styles.css'
@@ -55,12 +56,16 @@ const Mainpitch = class extends React.Component {
                       <div className="diagram">
                       <img src="/img/svg/OiLabs-Diagram.svg" />
                       </div>
+             
                     </div> 
                   </div>
                 </div>
               </article>
             </div>
           </section>
+
+          <VideoSection/>
+          
         </React.Fragment>
       )
     } else {
