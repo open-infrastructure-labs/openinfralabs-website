@@ -12,7 +12,7 @@
     justify-content: space-around;
   }
 
-  @media only screen and (max-width: 752px) {
+  @media only screen and (max-width: 896px) {
     .container {
       min-height: 0;
       display: flex;
@@ -22,7 +22,7 @@
 }
 
 .nav {
-  padding: 22px 0 22px;
+  padding: 22px 0 22px; 
   
   .nav-content,
   .nav-inner,
@@ -40,6 +40,7 @@
   .nav-brand {
     position: absolute;
     left: 0;
+    margin-left: 15px;
   }
 
   .nav-content {
@@ -127,7 +128,7 @@
     }
   }
 
-  @media (max-width: 752px) {
+  @media (max-width: 896px) {
     & {
       position: relative;
       padding: 10px 0;
