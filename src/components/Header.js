@@ -22,7 +22,7 @@ const Header = class extends React.Component {
             <div className="container">
               <div className="hero-content">
                 <div className="hero-logo">
-                  <img src="/img/OpenInfraLabs-Logo-RGB-Horiz-White.svg" />
+                  <img src="/img/OpenInfraLabs-Logo-RGB-Horiz-White-v2.svg" />
                 </div>
                 <h1 className="hero-title">{title}</h1>
                 <div className="hero-subhead">
