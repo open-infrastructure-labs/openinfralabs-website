@@ -14,7 +14,6 @@ const SupportBanner = class extends React.Component {
 
     return (
       <React.Fragment>
-        <hr />
         <section>
           <div className="support-content">
           {/* Render logo using CSS */}

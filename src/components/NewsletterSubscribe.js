@@ -14,9 +14,9 @@ const NewsletterSubscribe = class extends React.Component {
     if (content.subscribe.display) {
       return (
         <React.Fragment>
-          <hr />
-          <section className="section search-content">
-            <div className="search-content">
+
+          <section className="search-content">
+            <div className="search-content-text">
               <h3 className="search-content-title">
                 {content.subscribe.title}
               </h3>
