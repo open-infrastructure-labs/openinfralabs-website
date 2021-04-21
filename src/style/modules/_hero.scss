@@ -116,6 +116,47 @@
 	}
 }
 
+/* ------------------------------------------------------------ *\
+	Hero Video
+\* ------------------------------------------------------------ */
+
+.hero-video-main {
+	text-align: left;
+	background-color: $primary;
+
+	.hero-title {
+		font-size: 50px;
+		font-weight: 700;
+		color: $primary-invert;
+	}
+
+	.hero-video-text {
+		width: 50%;
+	}
+
+	.hero-body {
+		padding: 67px 0 65px;
+	}
+
+	.hero-content {
+		display: flex;
+		flex-direction: row;
+		max-width: 780px;
+		margin: 0 auto;
+	}
+
+	@media (max-width: 767px) {
+		.hero-title {
+			font-size: 30px;
+		}
+
+		.hero-body {
+			padding: 62px 0;
+		}
+	}
+}
+
+
 
 
 /* ------------------------------------------------------------ *\

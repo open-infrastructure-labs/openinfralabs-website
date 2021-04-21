@@ -5,6 +5,7 @@ import SEO from '../components/SEO'
 import TopBar from '../components/TopBar'
 import Navigation from '../components/Navigation'
 import Footer from '../components/Footer'
+import HeaderVideo from '../components/HeaderVideo'
 
 /* 
 Change imported stylesheet to style-b.scss for blueprint look
@@ -39,6 +40,7 @@ const TemplateWrapper = ({ children }) => {
       <SEO />
       <TopBar />
       <Navigation />
+      {/*<HeaderVideo />*/}
       <div>{children}</div>
       <Footer />
     </div>
