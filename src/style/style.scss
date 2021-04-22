@@ -207,6 +207,16 @@ body {
 }
 
 @media only screen and (max-width: 752px) {
+  .video-hero    {
+    order: 1;
+    width: 100%;
+    margin-left: unset;
+    margin-bottom: 30px;
+  }
+}
+
+
+@media only screen and (max-width: 752px) {
   .video   {
     width: 100%;
     margin-right: unset;
