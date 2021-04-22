@@ -19,9 +19,9 @@ const HeaderVideo = class extends React.Component {
 
               <div className="hero-video-text">
               
-                <h1 className="hero-title">Announcing the first OpenInfra Labs region</h1>
+                <h1 className="hero-title">OpenInfra Labs Launches First Region </h1>
                 <h4 className="hero-video-subhead">
-                Thanks in part to the generosity of Red Hat, the new open research cloud initiative has been launched at Boston University to advance the future of open infrastructure.
+                A $500 Million donation from Red Hat went to the open cloud initiative, an academic research cloud supported by Boston University. Organizations are encouraged to join as a partner and help grow the OpenInfra Labs open cloud network.
                 </h4>
 
                   <div className="hero-actions">
