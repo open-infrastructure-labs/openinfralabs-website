@@ -25,7 +25,7 @@ const HeaderVideo = class extends React.Component {
                 </h4>
 
                   <div className="hero-actions">
-                    <a href="/community/" className="button is-primary">
+                    <a href="https://openinfrafoundation.formstack.com/forms/openinfra_labs_interest" className="button is-primary">
                     <span>GET INVOLVED</span> <span className="ico">
                       <img src={leftArrow} alt="Learn More" style={({ filter: 'invert(36%) sepia(45%) saturate(953%) hue-rotate(170deg) brightness(98%) contrast(86%)' }, { WebkitFilter: 'invert(36%) sepia(45%) saturate(953%) hue-rotate(170deg) brightness(98%) contrast(86%)' })} />
                       </span>
