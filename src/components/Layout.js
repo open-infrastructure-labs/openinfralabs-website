@@ -40,7 +40,7 @@ const TemplateWrapper = ({ children }) => {
       <SEO />
       <TopBar />
       <Navigation />
-      {/*<HeaderVideo />*/}
+      <HeaderVideo />
       <div>{children}</div>
       <Footer />
     </div>

@@ -15,13 +15,13 @@ const HeaderVideo = class extends React.Component {
         <section className="hero-video-main hero hero-image">
           <div className="hero-body">
             <div className="container">
-              <div className="hero-content">
+              <div className="hero-video-content">
 
               <div className="hero-video-text">
-                <h1 className="hero-title">TITLE</h1>
-                <div className="hero-subhead">
-                  SUBHEAD
-                </div>
+                <h1 className="hero-title">Announcing the first OpenInfra Labs region</h1>
+                <h4 className="hero-video-subhead">
+                Thanks in part to the generosity of Red Hat, the new open research cloud initiative has been launched at Boston University to advance the future of open infrastructure.
+                </h4>
                 <div className="hero-actions">
                       <a href="" className="button is-primary">
                         <span>BUTTON TEXT</span> <span className="ico">
@@ -31,7 +31,7 @@ const HeaderVideo = class extends React.Component {
                 </div>
                 </div>
         
-                <div className="video">
+                <div className="video-hero">
                         <div className="videoWrapper">
                             <iframe width="560" height="315" src="https://www.youtube.com/embed/gkcQrTp5Kks" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>

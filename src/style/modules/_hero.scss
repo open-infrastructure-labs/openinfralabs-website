@@ -125,23 +125,25 @@
 	background-color: $primary;
 
 	.hero-title {
-		font-size: 50px;
+		font-size: 40px;
 		font-weight: 700;
 		color: $primary-invert;
 	}
 
 	.hero-video-text {
 		width: 50%;
+		margin-right: 30px;
 	}
 
 	.hero-body {
 		padding: 67px 0 65px;
 	}
 
-	.hero-content {
+	.hero-video-content{
+		height: 100%;
+		width: 100%;
 		display: flex;
 		flex-direction: row;
-		max-width: 780px;
 		margin: 0 auto;
 	}
 
@@ -194,6 +196,14 @@
 	padding-top: 4px;
 	padding-bottom: 35px;
 	font-size: 25px;
+	color: $white;
+}
+
+.hero-video-subhead {
+	font-weight: normal;
+	padding-top: 15px;
+	padding-bottom: 30px;
+	font-size: 16px;
 	color: $white;
 }
 

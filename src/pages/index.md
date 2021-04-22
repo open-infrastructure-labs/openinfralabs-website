@@ -13,7 +13,7 @@ header:
   buttons:
     - link: '/community/'
       text: Get Started
-  display: true
+  display: false
   subTitle:
     - text: OpenInfra Labs is a community of infrastructure providers and operators who integrate and optimize open source projects in production. 
   title: Connecting open source projects to production
