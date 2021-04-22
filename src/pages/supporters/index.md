@@ -62,15 +62,9 @@ supporters:
     - alt: G Research
       class: img-sponsor-l4
       image: /img/sponsors/gresearch-sm.jpg
-    - alt: Click2Cloud
-      class: img-sponsor-l4
-      image: /img/sponsors/click2cloud-sm.jpg
     - alt: Whitestack
       class: img-sponsor-l4
       image: /img/sponsors/whitestack_google.png
-    - alt: Warescale
-      class: img-sponsor-l4
-      image: /img/sponsors/warescale-1.png
     - alt: Vexxhost
       class: img-sponsor-l4
       image: /img/sponsors/vexxhost-sm.jpg
