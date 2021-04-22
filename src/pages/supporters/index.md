@@ -62,12 +62,18 @@ supporters:
     - alt: G Research
       class: img-sponsor-l4
       image: /img/sponsors/gresearch-sm.jpg
-    - alt: Whitestack
-      class: img-sponsor-l4
-      image: /img/sponsors/whitestack_google.png
     - alt: Vexxhost
       class: img-sponsor-l4
       image: /img/sponsors/vexxhost-sm.jpg
+    - alt: Whitestack
+      class: img-sponsor-l4
+      image: /img/sponsors/whitestack_google.png
+    - alt: 
+      class: 
+      image:       
+    - alt: 
+      class:
+      image: 
   title: Supporting Organizations
 ---
 
