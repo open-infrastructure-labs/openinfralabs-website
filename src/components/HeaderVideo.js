@@ -30,6 +30,11 @@ const HeaderVideo = class extends React.Component {
                       <img src={leftArrow} alt="Learn More" style={({ filter: 'invert(36%) sepia(45%) saturate(953%) hue-rotate(170deg) brightness(98%) contrast(86%)' }, { WebkitFilter: 'invert(36%) sepia(45%) saturate(953%) hue-rotate(170deg) brightness(98%) contrast(86%)' })} />
                       </span>
                     </a>
+                    <a href="/#about-template" className="button read-more">
+                    <span>READ more</span> <span className="ico">
+                      <img className="downArrow" src={leftArrow} alt="Learn More"/>
+                      </span>
+                    </a>
                   </div>
                 </div>
         
@@ -37,7 +42,6 @@ const HeaderVideo = class extends React.Component {
                   <div className="videoWrapper">
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/gkcQrTp5Kks" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                   </div>
-                  <div className="video-caption">Watch the announcement</div>
                 </div>
                 
               </div>
