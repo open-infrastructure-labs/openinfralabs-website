@@ -216,8 +216,21 @@
 .video-caption {
 	margin-top: 15px;
 	color: white;
-	font-size: 12px;
+	font-size: 14px;
 	text-align: center;
 	text-transform: uppercase;
 	letter-spacing: 0.5px;
+}
+
+.foundation-callout {
+	padding-top: 60px;
+	text-align: center;
+	margin: 0 auto;
+	color: white;
+	font-size: 14px;
+}
+
+.foundation-callout-logo {
+	width: 300px;
+	margin-left: 10px;
 }

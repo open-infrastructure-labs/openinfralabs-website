@@ -1,5 +1,5 @@
 import React from 'react'
-
+import OIFLogo from '../img/svg/OpenInfrastructureFoundation-logo-RGB-horiz1-w.svg'
 import leftArrow from '../img/svg/arrow-left.svg'
 
 const HeaderVideo = class extends React.Component {
@@ -25,7 +25,7 @@ const HeaderVideo = class extends React.Component {
                 </h4>
 
                   <div className="hero-actions">
-                    <a href="" className="button is-primary">
+                    <a href="/community/" className="button is-primary">
                     <span>GET INVOLVED</span> <span className="ico">
                       <img src={leftArrow} alt="Learn More" style={({ filter: 'invert(36%) sepia(45%) saturate(953%) hue-rotate(170deg) brightness(98%) contrast(86%)' }, { WebkitFilter: 'invert(36%) sepia(45%) saturate(953%) hue-rotate(170deg) brightness(98%) contrast(86%)' })} />
                       </span>
@@ -39,7 +39,11 @@ const HeaderVideo = class extends React.Component {
                   </div>
                   <div className="video-caption">Watch the announcement</div>
                 </div>
+                
               </div>
+
+              <div className="foundation-callout">OpenInfra Labs is an initiative of <a href="https://openinfra.dev/"><img className="foundation-callout-logo" src={OIFLogo} alt="Open Infrastructure Foundation Logo"  /></a></div>
+
             </div>
           </div>
         </section>
