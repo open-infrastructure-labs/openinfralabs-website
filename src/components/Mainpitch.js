@@ -1,5 +1,5 @@
 import React from 'react'
-import VideoSection from '../components/VideoSection'
+import LatestNews from './LatestNews'
 
 import Zoom from 'react-medium-image-zoom'
 import 'react-medium-image-zoom/dist/styles.css'
@@ -64,7 +64,7 @@ const Mainpitch = class extends React.Component {
             </div>
           </section>
 
-          <VideoSection/>
+          <LatestNews/>
           
         </React.Fragment>
       )
