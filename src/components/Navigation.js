@@ -78,7 +78,7 @@ const Navbar = class extends React.Component {
                           </Link>
                         }
                       </li>
-                      {index < menu.nav.length - 1 ? <li className="separator"> | </li> : null}
+                      
                     </React.Fragment>
                   )
                 })}
