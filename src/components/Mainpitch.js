@@ -39,7 +39,7 @@ const Mainpitch = class extends React.Component {
                       <div className= "intro-paragraph">
                         <h4>We are focused on delivering open source tools to build and run cloud, container, AI, big data and edge workloads efficiently, repeatedly and predictably. Our projects embrace three themes:</h4>
 
-                        <h4><strong>Operate First</strong> - helping developers gain insights into operational considerations and ensure their projects will integrate and operate well in production environments.</h4>
+                        <h4><strong>Operate First</strong> - helping developers gain insights into operational considerations and ensure their projects will integrate and operate well in production environments. <a href="https://www.operate-first.cloud"><strong>Learn More.</strong></a></h4>
             
                         <h4><strong>Low-Code Development</strong> - enabling developers to build production-grade AI and big data applications without specialized skills and with a minimal level of coding.</h4>
 
@@ -47,7 +47,7 @@ const Mainpitch = class extends React.Component {
                         {description.map((desc, index) => {
                           return (
                             <h4 key={index}>
-                              {desc.text} <a href="/community"><strong>Find more on our projects here</strong></a>.
+                              {desc.text} <a href="/community"><strong>Find more on our projects here.</strong></a>
                             </h4>
                           )
                         })}
