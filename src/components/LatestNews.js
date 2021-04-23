@@ -13,7 +13,7 @@ const LatestNews = class extends React.Component {
       return (
         <React.Fragment>
           <section>
-           <div className="latest-news">
+           <div id="latest-news-section" className="latest-news">
             <div className="container">
                 <div className="section-content">
 

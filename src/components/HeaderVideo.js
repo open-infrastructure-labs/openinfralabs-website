@@ -30,7 +30,7 @@ const HeaderVideo = class extends React.Component {
                       <img src={leftArrow} alt="Learn More" style={({ filter: 'invert(36%) sepia(45%) saturate(953%) hue-rotate(170deg) brightness(98%) contrast(86%)' }, { WebkitFilter: 'invert(36%) sepia(45%) saturate(953%) hue-rotate(170deg) brightness(98%) contrast(86%)' })} />
                       </span>
                     </a>
-                    <a href="/#about-template" className="button read-more">
+                    <a href="/#latest-news-section" className="button read-more">
                     <span>READ more</span> <span className="ico">
                       <img className="downArrow" src={leftArrow} alt="Learn More"/>
                       </span>
