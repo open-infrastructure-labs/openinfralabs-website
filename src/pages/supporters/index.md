@@ -26,12 +26,15 @@ supporters:
     - alt: Northeastern University
       class: img-sponsor-l4
       image: /img/sponsors/northeastern-university.png
+    - alt: The Ohio State University
+      class: img-sponsor-l4
+      image: /img/sponsors/ohiostate.jpg
+    - alt: StonyBrook
+      class: img-sponsor-l4
+      image: /img/sponsors/stonybrook.jpg
     - alt: UMass
       class: img-sponsor-l4
       image: /img/sponsors/umass.png
-    - alt: Commonwealth of Massachusetts
-      class: img-sponsor-l4
-      image: /img/sponsors/commonwealth-massachusetts.png
     - alt: Intel
       class: img-sponsor-l4
       image: /img/sponsors/intel-sm.png
