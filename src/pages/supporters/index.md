@@ -35,6 +35,9 @@ supporters:
     - alt: UMass
       class: img-sponsor-l4
       image: /img/sponsors/umass.png
+    - alt: Commonwealth of Massachusetts
+      class: img-sponsor-l4
+      image: /img/sponsors/commonwealth-massachusetts.png
     - alt: Intel
       class: img-sponsor-l4
       image: /img/sponsors/intel-sm.png
