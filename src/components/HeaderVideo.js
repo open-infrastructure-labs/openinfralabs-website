@@ -19,9 +19,9 @@ const HeaderVideo = class extends React.Component {
 
               <div className="hero-video-text hl-is-centered">
               
-                <h1 className="hero-title">OpenInfra Labs Launches First Region </h1>
+                <h1 className="hero-title">First OpenInfra Labs Region Gains Momentum</h1>
                 <h4 className="hero-video-subhead">
-                A $500 Million donation from Red Hat went to the open cloud initiative, an academic research cloud supported by Boston University. Organizations are encouraged to join as a partner and help grow the OpenInfra Labs open cloud network.
+                Red Hat provided $551.9 million in software subscriptions to support the first region of the OpenInfra Labs Cloud Network. The community is looking for additional companies who are interested in investing to accelerate the first region, help lead the effort to replicate and expand it to other regions, and participate in defining the rules for the federated open infrastructure cloud.
                 </h4>
 
                   <div className="hero-actions">
