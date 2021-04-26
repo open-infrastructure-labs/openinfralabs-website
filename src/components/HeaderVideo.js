@@ -17,7 +17,7 @@ const HeaderVideo = class extends React.Component {
             <div className="container">
               <div className="hero-video-content">
 
-              <div className="hero-video-text">
+              <div className="hero-video-text hl-is-centered">
               
                 <h1 className="hero-title">OpenInfra Labs Launches First Region </h1>
                 <h4 className="hero-video-subhead">
@@ -37,13 +37,13 @@ const HeaderVideo = class extends React.Component {
                     </a>
                   </div>
                 </div>
-        
+                {/*
                 <div className="video-hero">
                   <div className="videoWrapper">
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/gkcQrTp5Kks" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                   </div>
                 </div>
-                
+                */}
               </div>
 
               <div className="foundation-callout">OpenInfra Labs is an initiative of <a href="https://openinfra.dev/"><img className="foundation-callout-logo" src={OIFLogo} alt="Open Infrastructure Foundation Logo"  /></a></div>
