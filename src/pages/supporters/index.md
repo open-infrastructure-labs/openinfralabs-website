@@ -10,7 +10,7 @@ title: Supporters
 subTitle: Advancing OpenInfra Labs and growing the community
 introText: If you are using OpenInfra Labs and would like to be recognized as a OpenInfra Labs supporter, please connect with us.
 buttons:
-  - link: 'mailto:info@openinfralabs.org'
+  - link: 'https://openinfrafoundation.formstack.com/forms/openinfra_labs_interest'
     text: Support OpenInfra Labs
 supporters:
   list:
