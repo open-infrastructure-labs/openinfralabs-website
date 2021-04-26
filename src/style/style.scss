@@ -193,6 +193,12 @@ body {
   padding: 60px 0 60px 0;
 }
 
+@media only screen and (max-width: 752px) {
+  .latest-news  {
+    text-align: left;
+  }
+}
+
 a.news-link {
   font-weight: 600;
   text-decoration: underline;
