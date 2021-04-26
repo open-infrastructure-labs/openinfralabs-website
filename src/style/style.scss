@@ -193,6 +193,17 @@ body {
   padding: 60px 0 60px 0;
 }
 
+a.news-link {
+  font-weight: 600;
+  text-decoration: underline;
+  color: #333333;;
+}
+
+a.news-link:hover {
+  color: #666666;;
+  text-decoration: unset;
+}
+
 .section-content {
   display: flex;
   flex-direction: row;
