@@ -26,6 +26,12 @@ supporters:
     - alt: Northeastern University
       class: img-sponsor-l4
       image: /img/sponsors/northeastern-university.png
+    - alt: The Ohio State University
+      class: img-sponsor-l4
+      image: /img/sponsors/ohiostate.jpg
+    - alt: StonyBrook
+      class: img-sponsor-l4
+      image: /img/sponsors/stonybrook.jpg
     - alt: UMass
       class: img-sponsor-l4
       image: /img/sponsors/umass.png
@@ -68,12 +74,6 @@ supporters:
     - alt: Whitestack
       class: img-sponsor-l4
       image: /img/sponsors/whitestack_google.png
-    - alt: 
-      class: 
-      image:       
-    - alt: 
-      class:
-      image: 
   title: Supporting Organizations
 ---
 
