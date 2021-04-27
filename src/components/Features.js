@@ -11,7 +11,6 @@ const Features = class extends React.Component {
     if (display) {
       return (
         <React.Fragment>
-          <hr />
           <section className="section-article">
             <div className="container">
               <div className="article-content">

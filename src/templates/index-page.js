@@ -5,7 +5,7 @@ import { Helmet } from "react-helmet"
 import Layout from '../components/Layout'
 import SupportBanner from '../components/SupportBanner'
 import Header from '../components/Header'
-
+import HeaderVideo from '../components/HeaderVideo'
 import metadata from '../content/site-metadata.json'
 import Mainpitch from '../components/Mainpitch'
 import SecondaryMainpitch from '../components/SecondaryMainpitch'
@@ -41,7 +41,8 @@ export const IndexPageTemplate = ({
           {seo.image && seo.url && <meta name="twitter:image" content={`${seo.url}${seo.image.publicURL}`} />}
         </Helmet>
       }
-      <Header title={header.title} subTitle={header.subTitle} image={header.image} buttons={header.buttons} display={header.display} />
+      {/*<Header title={header.title} subTitle={header.subTitle} image={header.image} buttons={header.buttons} display={header.display} />*/}
+      <HeaderVideo />
       <Mainpitch mainpitch={mainpitch} />
       <Features features={features} />   
     </div>
