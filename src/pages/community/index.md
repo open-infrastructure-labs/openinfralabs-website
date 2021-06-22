@@ -31,7 +31,7 @@ Key development activities in OpenInfra Labs include:
 
 ## Connect with the Community via these channels
 
-* Freenode IRC: #openinfralabs
+* OFTC IRC: #openinfralabs
 
 * Mailing list: [http://lists.opendev.org/cgi-bin/mailman/listinfo/openinfralabs](http://lists.opendev.org/cgi-bin/mailman/listinfo/openinfralabs)
 
