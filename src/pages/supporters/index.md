@@ -58,7 +58,7 @@ supporters:
       image: /img/sponsors/fiberhome.jpg
     - alt: Dell
       class: img-sponsor-l4
-      image: /img/sponsors/dell-sm copy.jpg
+      image: /img/sponsors/dell-technologies-logo.png
     - alt: Ampere
       class: img-sponsor-l4
       image: /img/sponsors/ampere-sm.jpg
