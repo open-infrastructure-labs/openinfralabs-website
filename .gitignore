@@ -13,3 +13,5 @@ basement_dist
 .cache/
 public/
 static/admin/*.bundle.*
+.env
+src/content/sponsored-projects.json

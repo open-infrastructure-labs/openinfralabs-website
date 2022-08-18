@@ -5,6 +5,10 @@ import SEO from '../components/SEO'
 import TopBar from '../components/TopBar'
 import Navigation from '../components/Navigation'
 import Footer from '../components/Footer'
+import NavigationWidget from 'navigation-widget/dist';
+import 'navigation-widget/dist/index.css';
+import { getEnvVariable, SPONSORED_PROJECT_ID } from '../utils/envVariables'
+import sponsoredProjects from "../content/sponsored-projects.json";
 
 /* 
 Change imported stylesheet to style-b.scss for blueprint look
@@ -14,6 +18,9 @@ Change to style.scss for designed look
 import '../style/style.scss'
 
 const TemplateWrapper = ({ children }) => {
+
+  const currentProject = parseInt(getEnvVariable(SPONSORED_PROJECT_ID));
+
   return (
     <div>
       <Helmet>
@@ -37,6 +44,7 @@ const TemplateWrapper = ({ children }) => {
         />
       </Helmet>
       <SEO />
+      <NavigationWidget projects={sponsoredProjects} currentProject={currentProject} containerClass="container" />
       <Navigation />
       <div>{children}</div>
       <Footer />
