@@ -38,8 +38,8 @@ const Footer = class extends React.Component {
                   <div className="footer-entry">
                     <p>
                       {content.productName} is an independent open source community collaboratively developing code under the Apache 2 license.
-                      Supported by the <OutboundLink href="https://openinfra.dev/" target="_blank" rel="noopener noreferrer">Open Infra Foundation</OutboundLink>.
-                      The community follows the Open Infra Foundation <OutboundLink href="https://www.openstack.org/legal/community-code-of-conduct/" target="_blank" rel="noopener noreferrer">Code of Conduct</OutboundLink>.
+                      Supported by the <OutboundLink href="https://openinfra.dev/" target="_blank" rel="noopener noreferrer">OpenInfra Foundation</OutboundLink>.
+                      The community follows the OpenInfra Foundation <OutboundLink href="https://www.openstack.org/legal/community-code-of-conduct/" target="_blank" rel="noopener noreferrer">Code of Conduct</OutboundLink>.
                     </p>
                   </div>
                 </div>
