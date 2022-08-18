@@ -1,5 +1,5 @@
 import React from 'react'
-import OIFLogo from '../img/svg/OpenInfrastructureFoundation-logo-RGB-horiz1-w.svg'
+import OIFLogo from '../img/svg/OpenInfra-logo-white.svg'
 import leftArrow from '../img/svg/arrow-left.svg'
 
 const HeaderVideo = class extends React.Component {
